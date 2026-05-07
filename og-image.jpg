@@ -1,0 +1,3659 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-language" content="es-MX">
+<title>Agencia GEO México — Posicionamiento en ChatGPT y Google AI</title>
+<meta name="description" content="Primera agencia GEO en México. Hacemos que ChatGPT, Perplexity y Google AI recomienden tu marca. Metodología CITA Framework™. Resultados en 30-90 días.">
+<meta name="keywords" content="agencia geo mexico, generative engine optimization, chatgpt seo, perplexity seo, aeo marketing, seo ia, posicionamiento inteligencia artificial, google ai overviews">
+<meta name="author" content="SEOGEO.MX">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://seogeo.mx/">
+<meta name="theme-color" content="#0071e3">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://seogeo.mx/">
+<meta property="og:site_name" content="SEOGEO.MX">
+<meta property="og:title" content="Agencia GEO México — Posicionamiento en ChatGPT y Google AI">
+<meta property="og:description" content="Primera agencia especializada en GEO en México. Hacemos que ChatGPT, Perplexity y Google AI recomienden tu marca.">
+<meta property="og:image" content="https://seogeo.mx/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SEOGEO.MX - Agencia GEO México">
+<meta property="og:locale" content="es_MX">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@seogeo_mx">
+<meta name="twitter:creator" content="@seogeo_mx">
+<meta name="twitter:title" content="Agencia GEO México — Posicionamiento en ChatGPT y Google AI">
+<meta name="twitter:description" content="Primera agencia especializada en GEO en México. Hacemos que ChatGPT, Perplexity y Google AI recomienden tu marca.">
+<meta name="twitter:image" content="https://seogeo.mx/og-image.jpg">
+<meta name="twitter:image:alt" content="SEOGEO.MX - Agencia GEO México">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preload" href="/logo-fallback.jpg" as="image">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
+
+<!-- <meta name="google-site-verification" content="TU_CODIGO_GOOGLE_AQUI"> -->
+<!-- <meta name="msvalidate.01" content="TU_CODIGO_BING_AQUI"> -->
+<style>
+  :root{
+    --p1:#6C5CE7;
+    --p2:#8E7CFF;
+    --p3:#A78BFA;
+    --b1:#7DD3FC;
+    --b2:#93C5FD;
+  }
+
+  *{ -webkit-font-smoothing: antialiased; box-sizing: border-box; }
+
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 24px;
+    overflow-x: clip;
+  }
+
+  body{
+    background: linear-gradient(180deg,#F6F4FF 0%, #EEF0FF 60%, #F4F2FF 100%);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color:#0E0B25;
+    overflow-x: clip;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  img, svg, video{ max-width: 100%; }
+
+  .halo{
+    position:absolute;
+    right:-200px;
+    top:-100px;
+    width:900px;
+    height:900px;
+    background: radial-gradient(circle, rgba(139,92,246,0.18), transparent 60%);
+    filter: blur(40px);
+    pointer-events:none;
+    z-index:0;
+  }
+
+  .glass{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.65);
+    border: 1px solid rgba(255,255,255,0.9);
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.9) inset,
+      0 20px 40px -20px rgba(108,92,231,0.25),
+      0 8px 24px -8px rgba(108,92,231,0.10);
+  }
+
+  .pill{
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.9);
+    box-shadow: 0 8px 24px rgba(108,92,231,0.10);
+  }
+
+  .btn-primary{
+    background: linear-gradient(135deg,#6C5CE7 0%,#8B5CF6 100%);
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.3) inset,
+      0 12px 28px -8px rgba(108,92,231,0.55),
+      0 4px 12px -4px rgba(108,92,231,0.4);
+    transition: all .25s ease;
+    letter-spacing: 0.02em;
+  }
+  .btn-primary:hover{
+    transform: translateY(-2px);
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.3) inset,
+      0 18px 38px -10px rgba(108,92,231,0.65);
+  }
+
+  .btn-outline{
+    background: rgba(255,255,255,0.9);
+    border: 1px solid rgba(15,23,42,0.12);
+    box-shadow: 0 6px 16px -6px rgba(15,23,42,0.10);
+    transition: all .25s ease;
+    letter-spacing: 0.02em;
+  }
+  .btn-outline:hover{
+    background:#fff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px -8px rgba(15,23,42,0.15);
+  }
+
+  .scribble{
+    position:absolute;
+    left:0;
+    bottom:-18px;
+    width:100%;
+    max-width:340px;
+    height:18px;
+  }
+
+  .bars-stage{
+    position: relative;
+    height: 480px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 18px;
+    padding-bottom: 30px;
+  }
+
+  .bars-stage::after{
+    content:'';
+    position:absolute;
+    left:8%;
+    right:8%;
+    bottom:18px;
+    height:24px;
+    background: radial-gradient(ellipse at center, rgba(139,92,246,0.25), transparent 70%);
+    filter: blur(10px);
+  }
+
+  .bar3d{
+    position: relative;
+    width: 64px;
+    border-radius: 6px 6px 4px 4px;
+    background:
+      linear-gradient(180deg,
+        rgba(255,255,255,0.55) 0%,
+        rgba(167,139,250,0.55) 40%,
+        rgba(124,58,237,0.85) 100%);
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,0.6),
+      inset 8px 0 16px rgba(255,255,255,0.35),
+      inset -8px 0 16px rgba(91,33,182,0.25),
+      0 30px 50px -20px rgba(91,33,182,0.45);
+    backdrop-filter: blur(8px);
+  }
+
+  .bar3d::before{
+    content:'';
+    position:absolute;
+    top:-6px;
+    left:0;
+    right:0;
+    height:10px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(167,139,250,0.7));
+    border-radius: 8px 8px 2px 2px;
+    transform: perspective(40px) rotateX(35deg);
+    transform-origin: bottom;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.9);
+  }
+
+  .bar3d::after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    width:14px;
+    height:100%;
+    background: linear-gradient(90deg, transparent, rgba(91,33,182,0.45));
+    border-radius: 0 6px 4px 0;
+  }
+
+  .bar3d.b1{
+    background: linear-gradient(180deg,
+      rgba(255,255,255,0.55) 0%,
+      rgba(147,197,253,0.55) 40%,
+      rgba(96,165,250,0.85) 100%);
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,0.6),
+      inset 8px 0 16px rgba(255,255,255,0.35),
+      inset -8px 0 16px rgba(37,99,235,0.25),
+      0 30px 50px -20px rgba(37,99,235,0.4);
+  }
+  .bar3d.b2{
+    background: linear-gradient(180deg,
+      rgba(255,255,255,0.55) 0%,
+      rgba(165,180,252,0.55) 40%,
+      rgba(99,102,241,0.85) 100%);
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,0.6),
+      inset 8px 0 16px rgba(255,255,255,0.35),
+      inset -8px 0 16px rgba(67,56,202,0.25),
+      0 30px 50px -20px rgba(67,56,202,0.42);
+  }
+  .bar3d.b3{
+    background: linear-gradient(180deg,
+      rgba(255,255,255,0.55) 0%,
+      rgba(167,139,250,0.55) 40%,
+      rgba(124,58,237,0.85) 100%);
+  }
+  .bar3d.b4{
+    background: linear-gradient(180deg,
+      rgba(255,255,255,0.55) 0%,
+      rgba(196,181,253,0.55) 40%,
+      rgba(139,92,246,0.9) 100%);
+  }
+  .bar3d.b5{
+    background: linear-gradient(180deg,
+      rgba(255,255,255,0.6) 0%,
+      rgba(216,180,254,0.6) 40%,
+      rgba(168,85,247,0.92) 100%);
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,0.6),
+      inset 8px 0 16px rgba(255,255,255,0.35),
+      inset -8px 0 16px rgba(126,34,206,0.3),
+      0 30px 50px -20px rgba(126,34,206,0.5);
+  }
+
+  .waves{
+    position:absolute;
+    right:-100px;
+    top:60px;
+    width:900px;
+    height:600px;
+    pointer-events:none;
+    opacity:0.55;
+    z-index:0;
+  }
+
+  .logo-bar{
+    width:6px;
+    border-radius:2px;
+    background: linear-gradient(180deg,#A78BFA,#7C3AED);
+  }
+
+  .eyebrow{
+    letter-spacing: 0.22em;
+  }
+
+  h1.hero{
+    font-weight: 800;
+    line-height: 1.06;
+    letter-spacing: -0.03em;
+    font-size: clamp(28px, 9vw, 64px);
+    max-width: 100%;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+  @media (max-width: 430px){
+    h1.hero{ font-size: clamp(28px, 10vw, 42px); }
+  }
+
+  .grad-text{
+    background: linear-gradient(135deg,#6C5CE7 0%, #8B5CF6 50%, #A78BFA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .brand-card{
+    backdrop-filter: blur(24px);
+    background: rgba(255,255,255,0.72);
+    border: 1px solid rgba(255,255,255,0.95);
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.95) inset,
+      0 24px 48px -16px rgba(108,92,231,0.22);
+  }
+
+  .ben-icon{
+    background: linear-gradient(135deg,#EEEAFE,#E0DAFF);
+    color:#6C5CE7;
+  }
+
+  /* Brand links */
+  .brand-link{
+    transition: all .2s ease;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  .brand-link:hover{
+    background: rgba(124,58,237,0.06);
+    transform: translateY(-1px);
+  }
+  .brand-link:hover span{
+    color:#6C5CE7;
+  }
+
+  /* ===== MOBILE-FIRST GUARDRAILS (≤ 640px) ===== */
+  @media (max-width: 640px){
+    /* Outer hero wrapper: 20px lateral padding instead of 32px */
+    .relative.max-w-7xl{ padding-left: 20px !important; padding-right: 20px !important; }
+
+    /* Hero grid: force single column that respects parent width
+       (otherwise the bars 3D push the auto column to ~410px) */
+    body > div.relative.max-w-7xl > section{
+      grid-template-columns: minmax(0, 1fr) !important;
+      gap: 28px !important;
+    }
+    body > div.relative.max-w-7xl > section > div{
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    /* Tame decorative absolute elements that could push doc width */
+    .halo, .waves{ display: none; }
+
+    /* Hero subtitle / paragraphs never overflow */
+    h1.hero, h1.hero *, .hero-sub, p, h2, h3 { max-width: 100%; }
+
+    /* Bars 3D stage shrinks gracefully */
+    .bars-stage{ height: 280px; gap: 8px; padding-bottom: 18px; }
+    .bar3d{ width: 38px; }
+    .bar3d.b1{ height: 60px !important; }
+    .bar3d.b2{ height: 110px !important; }
+    .bar3d.b3{ height: 160px !important; }
+    .bar3d.b4{ height: 210px !important; }
+    .bar3d.b5{ height: 260px !important; }
+
+    /* Brand card under bars: tighter padding */
+    .brand-card{ padding: 14px 16px !important; }
+
+    /* Hero CTAs: stack to full width */
+    .btn-primary, .btn-outline{ width: 100%; justify-content: center; }
+
+    /* Stat card +340%: never wider than column, and stack contents */
+    .glass{ max-width: 100%; padding: 18px !important; }
+    .glass > .flex{ flex-wrap: wrap; gap: 12px !important; row-gap: 8px; }
+    .glass > .flex > p:first-of-type{ font-size: 36px !important; }
+    .glass > .flex > p:last-of-type{ flex: 1 1 100%; font-size: 13px !important; }
+
+    /* Scribble underline: don't push width */
+    .scribble{ max-width: 100%; }
+
+    /* Safe space at the bottom for floating WhatsApp / sticky bars */
+    body{ padding-bottom: 96px; }
+  }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SEOGEO.MX",
+  "alternateName": ["Agencia GEO México", "SEOGEO"],
+  "url": "https://seogeo.mx",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://seogeo.mx/logo-fallback.jpg",
+    "width": 600,
+    "height": 200
+  },
+  "description": "Primera agencia especializada en Generative Engine Optimization (GEO) en México. Hacemos que ChatGPT, Perplexity, Google AI y Claude recomienden tu marca.",
+  "foundingDate": "2024",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ciudad de México",
+    "addressRegion": "CDMX",
+    "addressCountry": "MX"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.4326,
+    "longitude": -99.1332
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+52-55-3988-7615",
+    "contactType": "Sales",
+    "email": "contacto@seogeo.mx",
+    "availableLanguage": ["Spanish", "English"],
+    "areaServed": "MX"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "México"
+  },
+  "knowsAbout": [
+    "Generative Engine Optimization",
+    "GEO",
+    "Answer Engine Optimization",
+    "AEO",
+    "ChatGPT SEO",
+    "Perplexity SEO",
+    "Google AI Overviews"
+  ],
+  "slogan": "La IA ya está recomendando empresas. Asegúrate de que recomiende la tuya."
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SEOGEO.MX",
+  "image": "https://seogeo.mx/og-image.jpg",
+  "@id": "https://seogeo.mx",
+  "url": "https://seogeo.mx",
+  "telephone": "+52-55-3988-7615",
+  "email": "contacto@seogeo.mx",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ciudad de México",
+    "addressRegion": "CDMX",
+    "addressCountry": "MX"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.4326,
+    "longitude": -99.1332
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo aparecer en ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para aparecer en ChatGPT, una empresa necesita contenido estructurado, autoridad digital, presencia semántica clara y menciones consistentes en fuentes confiables. SEOGEO.MX ayuda a las marcas a optimizar estos factores mediante estrategias GEO y AEO con el CITA Framework™."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GEO significa Generative Engine Optimization. Es la optimización para que una marca sea entendida, citada y recomendada por motores generativos de inteligencia artificial como ChatGPT, Perplexity, Claude, Gemini y Copilot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es AEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AEO significa Answer Engine Optimization. Es la estrategia para estructurar contenido en formato de respuestas claras, directas y confiables, facilitando que buscadores e inteligencias artificiales lo usen como referencia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿En qué se diferencia GEO del SEO tradicional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El SEO tradicional busca posicionar páginas en Google. GEO busca posicionar entidades, marcas y respuestas dentro de motores de inteligencia artificial. Una estrategia moderna combina SEO, GEO y AEO para lograr visibilidad en Google y en respuestas generadas por IA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo logra una agencia que la IA recomiende una marca?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una agencia especializada en GEO crea contenido semántico, páginas pilar, FAQs, comparativas, señales de autoridad y menciones externas para que los modelos de IA identifiquen a la marca como una fuente relevante dentro de su industria."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo toma ver resultados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los resultados suelen comenzar a medirse entre 30 y 90 días, dependiendo de la autoridad actual de la marca, la competencia de la industria, la calidad del contenido y la cantidad de señales externas disponibles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Esto reemplaza el SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. GEO y AEO no reemplazan el SEO; lo complementan. El SEO sigue siendo la base para Google, mientras que GEO y AEO preparan a la marca para ser visible en respuestas de inteligencia artificial."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se mide el éxito en GEO y AEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El éxito se mide revisando presencia en respuestas generadas por IA, menciones de marca, tráfico orgánico, autoridad temática, citas externas, rankings en Google y conversiones generadas desde búsquedas informativas y conversacionales."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Generative Engine Optimization (GEO)",
+  "provider": {
+    "@type": "Organization",
+    "name": "SEOGEO.MX",
+    "url": "https://seogeo.mx"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "México"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios GEO",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Auditoría GEO",
+          "description": "Análisis completo de presencia en ChatGPT, Perplexity, Claude y Google AI para identificar oportunidades de optimización"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Implementación CITA Framework™",
+          "description": "Metodología propietaria de 4 pilares: Citabilidad, Indexación, Tópica y Análisis para máxima visibilidad en IAs"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Monitoreo Citation Rate",
+          "description": "Medición mensual de menciones de tu marca en respuestas generadas por motores de inteligencia artificial"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Optimización para AI Overviews",
+          "description": "Estructuración de contenido para aparecer en Google AI Overviews y Featured Snippets"
+        }
+      }
+    ]
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "MXN",
+    "lowPrice": "20000",
+    "highPrice": "85000",
+    "offerCount": "3"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://seogeo.mx"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculadora GEO Score",
+      "item": "https://seogeo.mx/score"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SEOGEO.MX",
+  "alternateName": "Agencia GEO México",
+  "url": "https://seogeo.mx",
+  "description": "Agencia especializada en Generative Engine Optimization (GEO) en México",
+  "inLanguage": "es-MX",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://seogeo.mx/score?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<section class="geo-hero">
+  <div class="geo-hero-inner">
+
+    <div class="geo-hero-copy">
+      <div class="hero-logo-wrap">
+        <a href="/" class="hero-logo">
+          <picture>
+            <source media="(max-width: 640px)" srcset="logo-800.webp?v=3" type="image/webp">
+            <source srcset="logo.webp?v=3" type="image/webp">
+            <img src="logo-fallback.jpg?v=3" width="2000" height="600" class="hero-logo-img" alt="GEO - Agencia de posicionamiento en IA" fetchpriority="high">
+          </picture>
+        </a>
+        <span class="hero-logo-sub">SEO · GEO · AEO</span>
+        <span class="hero-logo-tagline">POSICIONAMIENTO EN INTELIGENCIA ARTIFICIAL</span>
+      </div>
+
+      <h1>
+        Hacemos que la IA
+        <span>te recomiende</span>
+        antes que a tu competencia.
+      </h1>
+
+      <p>
+        Hoy tus clientes no buscan. Preguntan.<br>
+        Y la respuesta que reciben define a quién compran.
+      </p>
+
+      <div class="geo-hero-proof">
+        <span>→</span>
+        Nosotros hacemos que esa respuesta sea tu marca.
+      </div>
+
+      <div class="geo-hero-actions">
+        <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Agencia%20GEO%20M%C3%A9xico.%0AHice%20clic%20en%3A%20Posicionarme%20en%20IA.%0AQuiero%20que%20mi%20empresa%20aparezca%20en%20respuestas%20de%20ChatGPT%2C%20Perplexity%20y%20Google%20AI.%0AMi%20sitio%20web%20es%3A" target="_blank" rel="noopener" class="geo-btn-primary">Quiero aparecer en IA →</a>
+        <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Agencia%20GEO%20M%C3%A9xico.%0AHice%20clic%20en%3A%20Quiero%20m%C3%A1s%20informaci%C3%B3n.%0AMe%20interesa%20saber%20c%C3%B3mo%20funciona%20el%20posicionamiento%20en%20IA%20para%20mi%20empresa.%0AMi%20sitio%20web%20es%3A" target="_blank" rel="noopener" class="geo-btn-secondary">Quiero más información →</a>
+      </div>
+
+      <div class="geo-trust-row">
+        <div>
+          <span>◇</span>
+          <strong>Estrategias éticas</strong>
+          <small>Cumplimos las guías de cada plataforma.</small>
+        </div>
+        <div>
+          <span>↗</span>
+          <strong>Resultados medibles</strong>
+          <small>Monitoreamos presencia y crecimiento en IA.</small>
+        </div>
+        <div>
+          <span>⌘</span>
+          <strong>Confidencialidad total</strong>
+          <small>Tu información y proyecto siempre protegidos.</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="geo-hero-visual">
+      <div class="question-card">
+        <div class="user-icon">●</div>
+        <p>¿Cuál es la mejor agencia para aparecer en respuestas de IA?</p>
+      </div>
+
+      <div class="answer-card">
+        <div class="ai-icon">✺</div>
+        <div>
+          <p><strong>GEO es una excelente opción.</strong></p>
+          <p>
+            Especialistas en SEO, GEO y AEO. Ayudan a marcas a ser recomendadas
+            dentro de respuestas de IA.
+          </p>
+          <span>Recomendado ✓</span>
+        </div>
+      </div>
+
+      <div class="platform-row">
+        <a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT</a>
+        <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>
+        <a href="https://ai.google" target="_blank" rel="noopener">Google AI</a>
+      </div>
+
+      <div class="bot-orbit">
+        <div class="bot-face">••</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .geo-hero {
+    width: 100%;
+    min-height: 100vh;
+    padding: 42px 18px 70px;
+    background:
+      radial-gradient(circle at 86% 45%, rgba(124, 92, 255, 0.22), transparent 28%),
+      radial-gradient(circle at 15% 15%, rgba(124, 92, 255, 0.10), transparent 28%),
+      linear-gradient(180deg, #ffffff 0%, #f8f6ff 100%);
+    overflow: hidden;
+  }
+
+  .geo-hero-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 52px;
+    align-items: center;
+  }
+
+  .hero-logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 34px;
+  }
+
+  .hero-logo {
+    display: block;
+    max-width: 220px;
+  }
+
+  .hero-logo-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-logo-sub {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.32em;
+    color: #6C4CFF;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  .hero-logo-tagline {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #7c5cff;
+    font-size: 10.5px;
+    letter-spacing: 0.28em;
+    font-weight: 600;
+    opacity: 0.72;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  .geo-hero h1 {
+    margin: 0;
+    color: #08091f;
+    font-size: clamp(44px, 11vw, 82px);
+    line-height: 0.96;
+    letter-spacing: -0.065em;
+    font-weight: 900;
+    max-width: 660px;
+  }
+
+  .geo-hero h1 span {
+    display: block;
+    color: #6f4cff;
+  }
+
+  .geo-hero-copy > p {
+    margin: 28px 0 0;
+    color: #34384a;
+    font-size: clamp(18px, 4vw, 23px);
+    line-height: 1.45;
+    max-width: 560px;
+  }
+
+  .geo-hero-proof {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #5f35ff;
+    font-size: 17px;
+    line-height: 1.35;
+    font-weight: 850;
+  }
+
+  .geo-hero-proof span {
+    flex: 0 0 auto;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(124, 92, 255, 0.16);
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+  }
+
+  .geo-hero-actions {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    max-width: 580px;
+  }
+
+  .geo-btn-primary,
+  .geo-btn-secondary {
+    min-height: 60px;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 850;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+  }
+
+  .geo-btn-primary {
+    background: linear-gradient(135deg, #7c5cff 0%, #4f35f5 100%);
+    color: #ffffff;
+    box-shadow: 0 18px 42px rgba(79, 53, 245, 0.30);
+  }
+
+  .geo-btn-secondary {
+    background: rgba(255,255,255,0.86);
+    color: #201a42;
+    border: 1px solid rgba(124, 92, 255, 0.14);
+    box-shadow: 0 14px 34px rgba(32, 24, 80, 0.08);
+  }
+
+  .geo-btn-primary:hover,
+  .geo-btn-secondary:hover {
+    transform: translateY(-3px);
+  }
+
+  .geo-btn-primary:hover {
+    filter: brightness(1.04);
+    box-shadow:
+      0 24px 60px rgba(79, 53, 245, 0.38),
+      0 0 34px rgba(124, 92, 255, 0.30);
+  }
+
+  .geo-trust-row {
+    margin-top: 46px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .geo-trust-row div {
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    column-gap: 12px;
+    align-items: start;
+  }
+
+  .geo-trust-row span {
+    grid-row: span 2;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(124, 92, 255, 0.10);
+    color: #6f4cff;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .geo-trust-row strong {
+    color: #08091f;
+    font-size: 14px;
+    font-weight: 850;
+  }
+
+  .geo-trust-row small {
+    color: #5f667a;
+    font-size: 13px;
+    line-height: 1.45;
+    margin-top: 4px;
+  }
+
+  /* VISUAL */
+  .geo-hero-visual {
+    position: relative;
+    min-height: 520px;
+  }
+
+  .question-card,
+  .answer-card,
+  .platform-row a {
+    background: rgba(255,255,255,0.86);
+    border: 1px solid rgba(124, 92, 255, 0.12);
+    box-shadow:
+      0 24px 70px rgba(63, 45, 150, 0.12),
+      inset 0 1px 0 rgba(255,255,255,0.90);
+    backdrop-filter: blur(18px);
+  }
+
+  .question-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-radius: 24px;
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .user-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(124, 92, 255, 0.12);
+    color: #5f35ff;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+  }
+
+  .question-card p {
+    margin: 0;
+    color: #08091f;
+    font-size: 17px;
+    line-height: 1.35;
+    font-weight: 850;
+  }
+
+  .answer-card {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    gap: 18px;
+    border-radius: 28px;
+    padding: 26px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .answer-card .ai-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7c5cff, #4f35f5);
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-size: 26px;
+    box-shadow: 0 16px 34px rgba(79, 53, 245, 0.25);
+  }
+
+  .answer-card p:first-child {
+    margin: 0;
+    color: #08091f;
+    font-size: 22px;
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+    font-weight: 900;
+  }
+
+  .answer-card p:nth-child(2) {
+    margin: 12px 0 18px;
+    color: #34384a;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .answer-card span {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 999px;
+    background: rgba(124, 92, 255, 0.12);
+    color: #5f35ff;
+    font-size: 14px;
+    font-weight: 850;
+  }
+
+  .platform-row {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .platform-row a {
+    min-height: 54px;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    color: #08091f;
+    font-size: 15px;
+    font-weight: 850;
+    text-decoration: none;
+  }
+
+  .bot-orbit {
+    position: absolute;
+    right: -50px;
+    top: 122px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background:
+      repeating-radial-gradient(circle, rgba(124,92,255,0.18) 0 1px, transparent 1px 38px),
+      radial-gradient(circle, rgba(124,92,255,0.20), transparent 64%);
+    display: none;
+    place-items: center;
+    animation: geoFloat 4s ease-in-out infinite;
+  }
+
+  .bot-face {
+    width: 108px;
+    height: 92px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #8f74ff, #5f35ff);
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-size: 42px;
+    letter-spacing: 8px;
+    box-shadow:
+      0 28px 70px rgba(79, 53, 245, 0.35),
+      inset 0 0 0 10px rgba(255,255,255,0.28);
+  }
+
+  @keyframes geoFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-14px); }
+  }
+
+  @media (min-width: 640px) {
+    .geo-hero-actions {
+      grid-template-columns: auto auto;
+    }
+
+    .geo-btn-primary,
+    .geo-btn-secondary {
+      min-width: 250px;
+    }
+
+    .platform-row {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 980px) {
+    .geo-hero {
+      padding: 72px 42px 90px;
+    }
+
+    .geo-hero-inner {
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 70px;
+    }
+
+    .hero-logo-sub {
+      font-size: 11px;
+      letter-spacing: 0.42em;
+    }
+
+    .geo-hero-visual {
+      min-height: 610px;
+    }
+
+    .question-card {
+      max-width: 520px;
+      margin-left: 42px;
+    }
+
+    .answer-card {
+      max-width: 560px;
+      margin-left: 42px;
+    }
+
+    .platform-row {
+      max-width: 560px;
+      margin-left: 42px;
+    }
+
+    .bot-orbit {
+      display: grid;
+    }
+
+    .geo-trust-row {
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 640px;
+    }
+  }
+</style>
+
+
+
+<section class="geo-score-banner">
+  <div class="geo-score-banner-inner">
+
+    <div class="geo-score-copy">
+      <div class="geo-score-pill">⚡ GRATIS · SIN TARJETA · SIN COMPROMISO</div>
+
+      <h2>
+        Descubre tu
+        <span>GEO Score</span>
+      </h2>
+
+      <p>
+        En solo <strong>60 segundos</strong> descubre qué tan visible es tu marca
+        en respuestas de IA.
+      </p>
+
+      <a class="geo-score-btn" href="/score">
+        <span>🚀</span>
+        Analizar mi sitio GRATIS
+        <b>→</b>
+      </a>
+
+      <div class="geo-score-trust">
+        <span>◇ 100% seguro</span>
+        <span>⌘ Sin tarjeta</span>
+        <span>✓ Respuesta rápida</span>
+      </div>
+    </div>
+
+    <div class="geo-score-visual">
+      <div class="score-badge">SOLO<br><strong>60</strong><br>SEGUNDOS</div>
+
+      <div class="score-card">
+        <p>Tu GEO Score</p>
+
+        <div class="score-circle">
+          <span>87</span>
+          <small>/100</small>
+        </div>
+
+        <div class="score-status">VISIBILIDAD ALTA</div>
+
+        <div class="score-metrics">
+          <div>
+            <small>Presencia</small>
+            <strong>92</strong>
+          </div>
+          <div>
+            <small>Relevancia</small>
+            <strong>85</strong>
+          </div>
+          <div>
+            <small>Autoridad</small>
+            <strong>80</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .geo-score-banner {
+    width: 100%;
+    padding: 30px 16px;
+    background: #ffffff;
+  }
+
+  .geo-score-banner-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 34px 24px;
+    background:
+      radial-gradient(circle at 75% 55%, rgba(124, 92, 255, 0.35), transparent 34%),
+      radial-gradient(circle at 20% 15%, rgba(168, 85, 247, 0.18), transparent 28%),
+      linear-gradient(135deg, #08091f 0%, #181044 48%, #2e176c 100%);
+    color: #ffffff;
+    box-shadow:
+      0 30px 90px rgba(32, 24, 80, 0.22),
+      inset 0 1px 0 rgba(255,255,255,0.16);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .geo-score-banner-inner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 46px 46px;
+    mask-image: radial-gradient(circle at 70% 50%, black, transparent 70%);
+    pointer-events: none;
+  }
+
+  .geo-score-copy,
+  .geo-score-visual {
+    position: relative;
+    z-index: 2;
+  }
+
+  .geo-score-pill {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 9px 14px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.16);
+    color: rgba(255,255,255,0.86);
+    font-size: 11px;
+    font-weight: 850;
+    letter-spacing: 0.06em;
+    margin-bottom: 22px;
+  }
+
+  .geo-score-copy h2 {
+    margin: 0;
+    font-size: clamp(42px, 11vw, 82px);
+    line-height: 0.9;
+    letter-spacing: -0.07em;
+    font-weight: 900;
+  }
+
+  .geo-score-copy h2 span {
+    display: block;
+    background: linear-gradient(135deg, #7c5cff, #f472ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .geo-score-copy p {
+    margin: 22px 0 0;
+    max-width: 540px;
+    color: rgba(255,255,255,0.78);
+    font-size: clamp(17px, 4vw, 23px);
+    line-height: 1.45;
+  }
+
+  .geo-score-copy p strong {
+    color: #a78bff;
+  }
+
+  .geo-score-btn {
+    margin-top: 28px;
+    min-height: 64px;
+    width: 100%;
+    max-width: 520px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #8b5cf6 0%, #5f35ff 100%);
+    color: #ffffff;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 50px 1fr 34px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    font-size: clamp(17px, 4vw, 26px);
+    font-weight: 900;
+    box-shadow:
+      0 24px 60px rgba(95, 53, 255, 0.45),
+      0 0 34px rgba(124, 92, 255, 0.34),
+      inset 0 1px 0 rgba(255,255,255,0.22);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+  }
+
+  .geo-score-btn span {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.14);
+    display: grid;
+    place-items: center;
+  }
+
+  .geo-score-btn b {
+    font-size: 34px;
+    line-height: 1;
+  }
+
+  .geo-score-btn:hover {
+    transform: translateY(-4px);
+    filter: brightness(1.06);
+    box-shadow:
+      0 34px 80px rgba(95, 53, 255, 0.56),
+      0 0 52px rgba(168, 85, 247, 0.50);
+  }
+
+  .geo-score-trust {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 22px;
+    color: rgba(255,255,255,0.82);
+    font-size: 14px;
+    font-weight: 750;
+  }
+
+  /* VISUAL */
+  .geo-score-visual {
+    min-height: 300px;
+    display: grid;
+    place-items: center;
+  }
+
+  .score-card {
+    width: min(100%, 420px);
+    padding: 28px;
+    border-radius: 28px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(20px);
+    box-shadow:
+      0 28px 80px rgba(0,0,0,0.28),
+      0 0 60px rgba(124,92,255,0.28),
+      inset 0 1px 0 rgba(255,255,255,0.18);
+    transform: rotate(0deg);
+  }
+
+  .score-card > p {
+    margin: 0 0 18px;
+    color: rgba(255,255,255,0.76);
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .score-circle {
+    width: 210px;
+    height: 115px;
+    margin: 0 auto 14px;
+    border-radius: 210px 210px 0 0;
+    border-top: 18px solid #a78bff;
+    border-left: 18px solid rgba(167,139,255,0.22);
+    border-right: 18px solid #ffffff;
+    display: grid;
+    place-items: center;
+  }
+
+  .score-circle span {
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 0.8;
+    font-weight: 900;
+    letter-spacing: -0.06em;
+  }
+
+  .score-circle small {
+    margin-top: -20px;
+    color: rgba(255,255,255,0.55);
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .score-status {
+    width: fit-content;
+    margin: 0 auto 22px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: rgba(34,197,94,0.16);
+    color: #57f287;
+    font-size: 13px;
+    font-weight: 900;
+  }
+
+  .score-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    padding-top: 18px;
+  }
+
+  .score-metrics div {
+    text-align: center;
+  }
+
+  .score-metrics small {
+    display: block;
+    color: rgba(255,255,255,0.58);
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+
+  .score-metrics strong {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  .score-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 20%, #ecff75, #b8ff68);
+    color: #08091f;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.05;
+    font-weight: 900;
+    box-shadow:
+      0 16px 40px rgba(184,255,104,0.25),
+      inset 0 0 0 5px rgba(255,255,255,0.80);
+    z-index: 4;
+  }
+
+  .score-badge strong {
+    font-size: 36px;
+    line-height: 0.9;
+  }
+
+  @media (min-width: 860px) {
+    .geo-score-banner {
+      padding: 44px 28px;
+    }
+
+    .geo-score-banner-inner {
+      grid-template-columns: 1fr 0.9fr;
+      padding: 56px 64px;
+      gap: 44px;
+      align-items: center;
+    }
+
+    .score-card {
+      transform: rotate(4deg);
+    }
+
+    .score-badge {
+      top: 12px;
+      right: 22px;
+      width: 128px;
+      height: 128px;
+    }
+
+    .score-badge strong {
+      font-size: 46px;
+    }
+  }
+</style>
+
+
+
+
+<section class="ai-shift-section">
+  <div class="ai-shift-container">
+
+    <div class="shift-pill">LA NUEVA FORMA DE SER ENCONTRADO</div>
+
+    <h2>
+      Antes buscaban en Google.<br>
+      Ahora <span>preguntan a la IA.</span>
+    </h2>
+
+    <p class="shift-intro">
+      El posicionamiento en inteligencia artificial hace que tu marca sea entendida,
+      citada y recomendada cuando tus clientes preguntan a ChatGPT, Perplexity o Google AI.
+    </p>
+
+    <div class="shift-grid">
+
+      <article class="shift-card">
+        <div class="shift-icon">⌕</div>
+        <div class="shift-label">01 · ANTES</div>
+        <h3>El usuario buscaba</h3>
+        <p>Buscaba en Google, comparaba opciones y tomaba una decisión.</p>
+        <small>Búsqueda tradicional</small>
+      </article>
+
+      <div class="shift-arrow">›</div>
+
+      <article class="shift-card">
+        <div class="shift-icon">✺</div>
+        <div class="shift-label">02 · AHORA</div>
+        <h3>El usuario pregunta</h3>
+        <p>La IA resume opciones, recomienda empresas y guía la decisión.</p>
+        <small>Respuestas con IA</small>
+      </article>
+
+      <div class="shift-arrow">›</div>
+
+      <article class="shift-card">
+        <div class="shift-icon">◎</div>
+        <div class="shift-label">03 · OBJETIVO</div>
+        <h3>Tu marca es la respuesta</h3>
+        <p>Hacemos que tu marca sea la recomendación que la IA elige y confía.</p>
+        <small>Recomendación en IA</small>
+      </article>
+
+    </div>
+
+    <div class="shift-warning">
+      ⚡ Si tu marca no aparece en esas respuestas, simplemente <strong>no existe</strong> en ese momento de decisión.
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .ai-shift-section {
+    width: 100%;
+    padding: 78px 20px 70px;
+    background:
+      radial-gradient(circle at 50% 100%, rgba(108,76,255,.12), transparent 34%),
+      linear-gradient(180deg, #ffffff 0%, #fbfaff 100%);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", Arial, sans-serif;
+    color: #090b1a;
+  }
+
+  .ai-shift-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .shift-pill {
+    width: fit-content;
+    margin: 0 auto 26px;
+    padding: 12px 28px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.78);
+    border: 1px solid #e5ddff;
+    box-shadow: 0 12px 32px rgba(72,52,140,.06);
+    color: #6c4cff;
+    font-size: 13px;
+    font-weight: 850;
+    letter-spacing: .12em;
+  }
+
+  .ai-shift-container h2 {
+    margin: 0;
+    font-size: clamp(38px, 5vw, 72px);
+    line-height: 1.06;
+    letter-spacing: -0.06em;
+    font-weight: 850;
+  }
+
+  .ai-shift-container h2 span {
+    background: linear-gradient(135deg, #5b3cff 0%, #9b7cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .shift-intro {
+    max-width: 780px;
+    margin: 28px auto 52px;
+    font-size: 20px;
+    line-height: 1.55;
+    color: #5b6072;
+  }
+
+  .shift-grid {
+    display: grid;
+    grid-template-columns: 1fr 56px 1fr 56px 1fr;
+    align-items: center;
+    gap: 0;
+  }
+
+  .shift-card {
+    min-height: 330px;
+    padding: 42px 38px 34px;
+    border-radius: 28px;
+    background: rgba(255,255,255,.86);
+    border: 1px solid #ece8fb;
+    box-shadow: 0 24px 68px rgba(50,40,110,.08);
+    text-align: left;
+  }
+
+  .shift-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #f4efff 0%, #ffffff 100%);
+    border: 1px solid #e5ddff;
+    color: #6c4cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    box-shadow: 0 16px 36px rgba(108,76,255,.10);
+  }
+
+  .shift-label {
+    width: fit-content;
+    margin-bottom: 18px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    background: #f2edff;
+    color: #4a2da8;
+    font-size: 13px;
+    font-weight: 850;
+    letter-spacing: .08em;
+  }
+
+  .shift-card h3 {
+    margin: 0 0 16px;
+    font-size: 27px;
+    line-height: 1.1;
+    font-weight: 850;
+    letter-spacing: -0.04em;
+  }
+
+  .shift-card p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.58;
+    color: #5b6072;
+  }
+
+  .shift-card small {
+    display: inline-flex;
+    margin-top: 28px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: #f7f3ff;
+    color: #4a2da8;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .shift-arrow {
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+    border-radius: 999px;
+    background: rgba(255,255,255,.9);
+    border: 1px solid #ece8fb;
+    box-shadow: 0 14px 34px rgba(50,40,110,.08);
+    color: #6c4cff;
+    font-size: 40px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shift-warning {
+    max-width: 840px;
+    margin: 38px auto 0;
+    padding: 18px 28px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.78);
+    border: 1px solid #ece8fb;
+    box-shadow: 0 16px 40px rgba(50,40,110,.06);
+    color: #1d2030;
+    font-size: 16px;
+  }
+
+  .shift-warning strong {
+    color: #6c4cff;
+  }
+
+  @media (max-width: 980px) {
+    .shift-grid {
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .shift-arrow {
+      transform: rotate(90deg);
+    }
+
+    .shift-card {
+      min-height: auto;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .ai-shift-section {
+      padding: 56px 18px;
+    }
+
+    .shift-pill {
+      font-size: 11px;
+      padding: 10px 18px;
+    }
+
+    .shift-intro {
+      font-size: 16px;
+      margin-bottom: 34px;
+    }
+
+    .shift-card {
+      padding: 30px 24px;
+      border-radius: 22px;
+    }
+
+    .shift-card h3 {
+      font-size: 23px;
+    }
+
+    .shift-card p {
+      font-size: 15px;
+    }
+
+    .shift-warning {
+      border-radius: 22px;
+      font-size: 14px;
+      padding: 16px 18px;
+    }
+  }
+</style>
+
+
+
+<section class="geo-banner">
+  <div class="geo-banner-inner">
+
+    <div class="geo-banner-left">
+      <div class="geo-icon">
+        ✦
+      </div>
+
+      <h3>
+        La IA decide por tus clientes.
+        <span>¿Decides aparecer o no?</span>
+      </h3>
+    </div>
+
+    <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Agencia%20GEO%20M%C3%A9xico.%0AHice%20clic%20en%3A%20S%C3%AD%2C%20quiero.%0AQuiero%20que%20la%20IA%20recomiende%20mi%20empresa%20antes%20que%20a%20mi%20competencia.%0AMi%20sitio%20web%20es%3A" target="_blank" rel="noopener" class="geo-banner-btn">
+      <span>→</span> Sí, quiero
+    </a>
+
+  </div>
+</section>
+
+<style>
+  .geo-banner {
+    padding: 24px 16px;
+    background: #f8f7ff;
+  }
+
+  .geo-banner-inner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 22px;
+    border-radius: 20px;
+
+    background: linear-gradient(135deg, #6d5cff, #3b2bbf);
+    color: #fff;
+
+    box-shadow:
+      0 20px 60px rgba(80, 60, 255, 0.25),
+      inset 0 1px 0 rgba(255,255,255,0.2);
+  }
+
+  .geo-banner-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+  }
+
+  .geo-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 18px;
+
+    box-shadow:
+      0 0 20px rgba(255,255,255,0.25);
+    flex-shrink: 0;
+  }
+
+  .geo-banner h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .geo-banner h3 span {
+    display: block;
+    font-weight: 800;
+  }
+
+  .geo-banner-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 14px 22px;
+    border-radius: 14px;
+
+    background: #ffffff;
+    color: #3b2bbf;
+    font-weight: 700;
+    text-decoration: none;
+
+    box-shadow:
+      0 10px 30px rgba(0,0,0,0.15);
+
+    transition: all 0.25s ease;
+    white-space: nowrap;
+  }
+
+  .geo-banner-btn:hover {
+    transform: translateY(-3px) scale(1.03);
+
+    box-shadow:
+      0 20px 50px rgba(0,0,0,0.25),
+      0 0 20px rgba(255,255,255,0.4),
+      0 0 40px rgba(124, 92, 255, 0.6);
+
+    background: linear-gradient(135deg, #ffffff, #f3f0ff);
+  }
+
+  @media (min-width: 768px) {
+    .geo-banner-inner {
+      flex-direction: row;
+      padding: 26px 32px;
+    }
+
+    .geo-banner-left {
+      text-align: left;
+    }
+
+    .geo-banner h3 {
+      font-size: 20px;
+    }
+
+    .geo-banner-btn {
+      font-size: 16px;
+    }
+  }
+</style>
+
+<section class="geo-compare">
+  <div class="geo-container">
+
+    <span class="geo-badge">✦ COMPARATIVA ESTRATÉGICA</span>
+
+    <h2>
+      SEO vs AEO vs LLMO vs <span>GEO</span>
+    </h2>
+
+    <p class="geo-sub">
+      El posicionamiento evolucionó. Hoy no se trata solo de aparecer…
+      sino de ser recomendado por la IA.
+    </p>
+
+    <div class="geo-table">
+
+      <div class="geo-row geo-head">
+        <div>Criterio</div>
+        <div>SEO</div>
+        <div>AEO</div>
+        <div>LLMO</div>
+        <div class="geo-highlight-col">GEO</div>
+      </div>
+
+      <div class="geo-row">
+        <div data-label="Criterio">Objetivo</div>
+        <div data-label="SEO">Posicionar en Google</div>
+        <div data-label="AEO">Aparecer en respuestas</div>
+        <div data-label="LLMO">Ser entendido por IA</div>
+        <div data-label="GEO" class="geo-highlight-col">Ser recomendado por IA</div>
+      </div>
+
+      <div class="geo-row">
+        <div data-label="Criterio">Dónde aparece</div>
+        <div data-label="SEO">Resultados orgánicos</div>
+        <div data-label="AEO">Snippets / FAQs</div>
+        <div data-label="LLMO">Dentro de IA</div>
+        <div data-label="GEO" class="geo-highlight-col">ChatGPT, Perplexity, Gemini</div>
+      </div>
+
+      <div class="geo-row">
+        <div data-label="Criterio">Tiempo</div>
+        <div data-label="SEO">3–12 meses</div>
+        <div data-label="AEO">2–6 meses</div>
+        <div data-label="LLMO">2–6 meses</div>
+        <div data-label="GEO" class="geo-highlight-col">1–3 meses</div>
+      </div>
+
+      <div class="geo-row">
+        <div data-label="Criterio">Costo / Mes</div>
+        <div data-label="SEO">$300–$1,500 USD</div>
+        <div data-label="AEO">$500–$2,000 USD</div>
+        <div data-label="LLMO">$800–$3,000 USD</div>
+        <div data-label="GEO" class="geo-highlight-col">$1,200–$3,500 USD</div>
+      </div>
+
+      <div class="geo-row geo-results">
+        <div data-label="Criterio">Resultados</div>
+
+        <div data-label="SEO">Dependen de ranking</div>
+        <div data-label="AEO">Mejoran visibilidad</div>
+        <div data-label="LLMO">Reconocimiento IA</div>
+
+        <div data-label="GEO" class="geo-highlight-col geo-results-box">
+          <strong>Resultados en 30–90 días</strong>
+          <span>Alta visibilidad en IA</span>
+          <span>Tráfico más calificado</span>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="geo-note">
+      Los resultados dependen de tu industria, competencia y punto de partida.
+    </p>
+
+  </div>
+</section>
+
+<style>
+  .geo-compare{
+    width: 100%;
+    background:
+      radial-gradient(circle at 0% 0%, rgba(108, 76, 255, 0.08), transparent 36%),
+      linear-gradient(180deg, #ffffff 0%, #faf9ff 100%);
+    padding: 64px 20px 72px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #0f1222;
+  }
+
+  .geo-compare .geo-container{
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .geo-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid #e5ddff;
+    background: rgba(255,255,255,0.85);
+    color: #6c4cff;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    box-shadow: 0 8px 22px rgba(82, 52, 180, 0.06);
+  }
+
+  .geo-compare h2{
+    margin: 18px 0 12px;
+    font-size: clamp(28px, 4.4vw, 42px);
+    line-height: 1.08;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: #0e1023;
+  }
+  .geo-compare h2 span{
+    background: linear-gradient(135deg,#6C5CE7 0%, #8B5CF6 50%, #A78BFA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .geo-sub{
+    margin: 0 auto 36px;
+    max-width: 640px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #4f5565;
+  }
+
+  .geo-table{
+    text-align: left;
+    border-radius: 18px;
+    background: #ffffff;
+    border: 1px solid #ececf4;
+    box-shadow: 0 18px 42px rgba(40, 30, 90, 0.08);
+    overflow: hidden;
+  }
+
+  .geo-row{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr 1fr 1.25fr;
+    align-items: stretch;
+  }
+  .geo-row + .geo-row{
+    border-top: 1px solid #ececf4;
+  }
+  .geo-row > div{
+    padding: 16px 18px;
+    font-size: 13px;
+    line-height: 1.45;
+    color: #2c2f43;
+    display: flex;
+    align-items: center;
+  }
+  .geo-row > div + div{
+    border-left: 1px solid #ececf4;
+  }
+  .geo-row > div:first-child{
+    font-weight: 700;
+    color: #14172a;
+    background: #fbfaff;
+  }
+
+  .geo-head > div{
+    padding: 14px 18px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #14172a;
+    background: #f6f4ff;
+  }
+  .geo-head .geo-highlight-col{
+    color: #ffffff !important;
+    background: linear-gradient(135deg,#5b3cff 0%, #7c5cff 100%) !important;
+  }
+
+  .geo-highlight-col{
+    background: linear-gradient(180deg, rgba(108,76,255,0.06), rgba(108,76,255,0.10));
+    color: #1a1530;
+    font-weight: 700;
+  }
+  .geo-row:not(.geo-head):not(.geo-results) .geo-highlight-col{
+    border-left: 1px solid rgba(108,76,255,0.18);
+    border-right: 1px solid rgba(108,76,255,0.18);
+  }
+
+  .geo-results > div{
+    padding: 18px;
+  }
+  .geo-results-box{
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 4px;
+    background: linear-gradient(135deg, rgba(108,76,255,0.10), rgba(155,124,255,0.06)) !important;
+    border-left: 1px solid rgba(108,76,255,0.22) !important;
+  }
+  .geo-results-box strong{
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: #14172a;
+    margin-bottom: 4px;
+  }
+  .geo-results-box span{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #3a3f55;
+    line-height: 1.4;
+  }
+  .geo-results-box span::before{
+    content: "✓";
+    width: 14px;
+    height: 14px;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#6c4cff,#8b6cff);
+    color: #fff;
+    font-size: 8px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .geo-note{
+    margin: 22px auto 0;
+    max-width: 640px;
+    font-size: 12.5px;
+    color: #7d8294;
+  }
+
+  /* ===== Tablet ===== */
+  @media (max-width: 900px){
+    .geo-row{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1.2fr;
+    }
+    .geo-row > div{
+      font-size: 12px;
+      padding: 14px 12px;
+    }
+    .geo-head > div{
+      font-size: 11px;
+      padding: 12px 10px;
+    }
+  }
+
+  /* ===== Mobile (≤ 700px) — convert table to stacked cards ===== */
+  @media (max-width: 700px){
+    .geo-compare{ padding: 48px 18px 56px; }
+
+    .geo-table{
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      overflow: visible;
+      display: grid;
+      gap: 16px;
+    }
+
+    .geo-row{
+      display: block;
+      border-radius: 14px;
+      background: #ffffff;
+      border: 1px solid #ececf4;
+      box-shadow: 0 12px 28px rgba(40, 30, 90, 0.06);
+      overflow: hidden;
+    }
+    .geo-row + .geo-row{ border-top: 1px solid #ececf4; }
+
+    /* Hide table header in mobile */
+    .geo-head{ display: none !important; }
+
+    .geo-row > div{
+      display: block;
+      padding: 12px 16px;
+      border-left: 0 !important;
+      font-size: 13px;
+    }
+    .geo-row > div + div{
+      border-top: 1px solid #f0eff7;
+    }
+
+    /* First cell becomes the row title */
+    .geo-row > div:first-child{
+      background: linear-gradient(135deg,#0f0e25 0%,#1b1942 100%);
+      color: #ffffff !important;
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    /* Show the column labels via data-label */
+    .geo-row > div:not(:first-child)::before{
+      content: attr(data-label);
+      display: block;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      color: #8a8f9e;
+      margin-bottom: 4px;
+    }
+
+    /* Highlight the GEO row inside the card */
+    .geo-row > .geo-highlight-col{
+      background: linear-gradient(135deg, rgba(108,76,255,0.08), rgba(155,124,255,0.04)) !important;
+      border-left: 0 !important;
+      border-right: 0 !important;
+      border-top: 1px solid rgba(108,76,255,0.20) !important;
+    }
+    .geo-row > .geo-highlight-col::before{
+      color: #6c4cff;
+    }
+
+    .geo-results-box{
+      padding: 14px 16px !important;
+    }
+  }
+</style>
+
+<section class="cita-mini-section">
+  <div class="cita-mini-card">
+
+    <div class="cita-mini-intro">
+      <h2>El sistema que hace que<br>la IA te cite y recomiende.</h2>
+
+      <div class="cita-mini-note">
+        <span>☑</span>
+        Los resultados dependen de tu industria, competencia y punto de partida.
+      </div>
+    </div>
+
+    <div class="cita-mini-grid">
+
+      <article class="cita-mini-item">
+        <div class="cita-mini-icon">↗</div>
+        <span>01</span>
+        <h3>Citabilidad</h3>
+        <p>Schema, formato de respuesta, FAQs y contenido estructurado.</p>
+      </article>
+
+      <article class="cita-mini-item">
+        <div class="cita-mini-icon">◎</div>
+        <span>02</span>
+        <h3>Indexación</h3>
+        <p>Crawl, Google Search Console, arquitectura web y señales técnicas.</p>
+      </article>
+
+      <article class="cita-mini-item">
+        <div class="cita-mini-icon">◉</div>
+        <span>03</span>
+        <h3>Tópica</h3>
+        <p>Autoridad temática, páginas pilar, clusters y contenido experto.</p>
+      </article>
+
+      <article class="cita-mini-item">
+        <div class="cita-mini-icon">▥</div>
+        <span>04</span>
+        <h3>Análisis</h3>
+        <p>Monitoreo de menciones, presencia en IA y oportunidades de mejora.</p>
+      </article>
+
+    </div>
+
+    <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Agencia%20GEO%20M%C3%A9xico.%0AHice%20clic%20en%3A%20Aplicar%20el%20CITA%20Framework%20a%20mi%20marca.%0AQuiero%20aplicar%20esta%20metodolog%C3%ADa%20para%20mejorar%20mi%20visibilidad%20en%20IA.%0AMi%20sitio%20web%20es%3A" target="_blank" rel="noopener" class="cita-mini-cta">Aplicar el CITA Framework™ a mi marca →</a>
+
+  </div>
+</section>
+
+<style>
+  .cita-mini-section {
+    width: 100%;
+    padding: 28px 20px;
+    background: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", Arial, sans-serif;
+    color: #101322;
+  }
+
+  .cita-mini-card {
+    position: relative;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 30px 32px 42px;
+    border-radius: 22px;
+    background:
+      radial-gradient(circle at 72% 10%, rgba(124, 92, 255, 0.12), transparent 30%),
+      linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(249,247,255,0.96) 100%);
+    border: 1px solid #ece8fb;
+    box-shadow: 0 18px 50px rgba(58, 45, 120, 0.07);
+    display: grid;
+    grid-template-columns: 0.95fr 2fr;
+    gap: 36px;
+    align-items: center;
+  }
+
+  .cita-mini-intro h2 {
+    margin: 0 0 22px;
+    font-size: 28px;
+    line-height: 1.05;
+    font-weight: 850;
+    letter-spacing: -0.045em;
+    color: #0b0d1c;
+  }
+
+  .cita-mini-note {
+    max-width: 300px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.82);
+    border: 1px solid #dcd4ff;
+    color: #4f566a;
+    font-size: 11.5px;
+    line-height: 1.35;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .cita-mini-note span {
+    color: #6c4cff;
+    font-size: 17px;
+    line-height: 1;
+  }
+
+  .cita-mini-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+
+  .cita-mini-item {
+    min-height: 150px;
+    padding: 22px 20px 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid #ece8fb;
+    box-shadow: 0 16px 36px rgba(58, 45, 120, 0.07);
+  }
+
+  .cita-mini-icon {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #5b3cff 0%, #9b7cff 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    box-shadow: 0 12px 28px rgba(91, 60, 255, 0.28);
+  }
+
+  .cita-mini-item span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 10px;
+    font-weight: 850;
+    color: #6c4cff;
+  }
+
+  .cita-mini-item h3 {
+    margin: 0 0 7px;
+    font-size: 13px;
+    line-height: 1.1;
+    font-weight: 850;
+    color: #111426;
+  }
+
+  .cita-mini-item p {
+    margin: 0;
+    font-size: 10.8px;
+    line-height: 1.4;
+    color: #4f566a;
+  }
+
+  .cita-mini-cta {
+    position: absolute;
+    left: 50%;
+    bottom: -17px;
+    transform: translateX(-50%);
+    min-height: 36px;
+    padding: 0 24px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #5b3cff 0%, #7c5cff 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 14px 28px rgba(91, 60, 255, 0.28);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 980px) {
+    .cita-mini-card {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      padding: 30px 26px 54px;
+    }
+
+    .cita-mini-intro {
+      text-align: center;
+    }
+
+    .cita-mini-note {
+      margin: 0 auto;
+    }
+
+    .cita-mini-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 620px) {
+    .cita-mini-section {
+      padding: 24px 16px 38px;
+    }
+
+    .cita-mini-card {
+      border-radius: 20px;
+      padding: 26px 20px 58px;
+    }
+
+    .cita-mini-intro h2 {
+      font-size: 25px;
+    }
+
+    .cita-mini-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .cita-mini-item {
+      min-height: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      column-gap: 14px;
+      align-items: start;
+    }
+
+    .cita-mini-icon {
+      grid-row: span 3;
+      margin-bottom: 0;
+    }
+
+    .cita-mini-item span {
+      margin-top: 1px;
+    }
+
+    .cita-mini-item p {
+      font-size: 12px;
+    }
+
+    .cita-mini-cta {
+      width: calc(100% - 40px);
+      white-space: normal;
+      text-align: center;
+      min-height: 44px;
+      padding: 0 16px;
+    }
+  }
+</style>
+
+<section id="proceso" class="geo-process">
+  <div class="geo-process-inner">
+    <h2>Cómo hacemos que tu marca aparezca en IA</h2>
+
+    <div class="geo-steps">
+      <article class="geo-step">
+        <div class="geo-step-icon">⌕</div>
+        <span>1</span>
+        <h3>Auditoría</h3>
+        <p>Analizamos si tu marca aparece actualmente en respuestas de IA.</p>
+      </article>
+
+      <article class="geo-step">
+        <div class="geo-step-icon">⌘</div>
+        <span>2</span>
+        <h3>Estrategia GEO + AEO</h3>
+        <p>Definimos qué contenido, estructura y señales necesita tu marca.</p>
+      </article>
+
+      <article class="geo-step">
+        <div class="geo-step-icon">&lt;/&gt;</div>
+        <span>3</span>
+        <h3>Implementación</h3>
+        <p>Creamos páginas, FAQs, contenido semántico y schema.</p>
+      </article>
+
+      <article class="geo-step">
+        <div class="geo-step-icon">◇</div>
+        <span>4</span>
+        <h3>Autoridad digital</h3>
+        <p>Fortalecemos señales externas para que la IA confíe en tu marca.</p>
+      </article>
+
+      <article class="geo-step">
+        <div class="geo-step-icon">⌁</div>
+        <span>5</span>
+        <h3>Medición</h3>
+        <p>Monitoreamos presencia, menciones y evolución de tu marca en IA.</p>
+      </article>
+    </div>
+
+    <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Agencia%20GEO%20M%C3%A9xico.%0AHice%20clic%20en%3A%20Quiero%20una%20auditor%C3%ADa%20inicial.%0AQuiero%20saber%20si%20mi%20empresa%20aparece%20actualmente%20en%20respuestas%20de%20IA.%0AMi%20sitio%20web%20es%3A" target="_blank" rel="noopener" class="geo-process-btn">Quiero una auditoría inicial →</a>
+  </div>
+</section>
+
+<style>
+  .geo-process {
+    padding: 26px 16px;
+    background: #ffffff;
+  }
+
+  .geo-process-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 24px 18px;
+    border-radius: 18px;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(124,92,255,0.12), transparent 28%),
+      linear-gradient(180deg, #ffffff 0%, #f9f7ff 100%);
+    border: 1px solid rgba(124, 92, 255, 0.14);
+    box-shadow: 0 18px 55px rgba(32, 24, 80, 0.08);
+    text-align: center;
+  }
+
+  .geo-process h2 {
+    margin: 0 0 24px;
+    color: #08091f;
+    font-size: clamp(22px, 6vw, 28px);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+    font-weight: 850;
+  }
+
+  .geo-steps {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .geo-step {
+    position: relative;
+    padding: 8px 12px 4px;
+  }
+
+  .geo-step-icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 8px;
+    border-radius: 50%;
+    background: rgba(124, 92, 255, 0.10);
+    color: #7c5cff;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    font-weight: 850;
+    box-shadow: 0 0 26px rgba(124, 92, 255, 0.20);
+  }
+
+  .geo-step span {
+    display: block;
+    color: #7c5cff;
+    font-size: 12px;
+    font-weight: 850;
+    margin-bottom: 6px;
+  }
+
+  .geo-step h3 {
+    margin: 0;
+    color: #08091f;
+    font-size: 15px;
+    line-height: 1.15;
+    font-weight: 850;
+  }
+
+  .geo-step p {
+    margin: 6px auto 0;
+    max-width: 170px;
+    color: #4b5565;
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  .geo-process-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    min-height: 42px;
+    padding: 0 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(124, 92, 255, 0.35);
+    color: #7c5cff;
+    background: rgba(255, 255, 255, 0.82);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 850;
+    box-shadow: 0 10px 28px rgba(124, 92, 255, 0.12);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+  }
+
+  .geo-process-btn:hover {
+    transform: translateY(-2px);
+    background: #ffffff;
+    box-shadow:
+      0 18px 40px rgba(124, 92, 255, 0.20),
+      0 0 24px rgba(124, 92, 255, 0.18);
+  }
+
+  @media (min-width: 900px) {
+    .geo-process-inner {
+      display: grid;
+      grid-template-columns: 210px 1fr;
+      align-items: center;
+      text-align: left;
+      padding: 24px 28px 22px;
+    }
+
+    .geo-process h2 {
+      margin: 0;
+      max-width: 200px;
+    }
+
+    .geo-steps {
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+
+    .geo-steps::before {
+      content: "";
+      position: absolute;
+      top: 26px;
+      left: 10%;
+      right: 10%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(124,92,255,0.26), transparent);
+    }
+
+    .geo-step {
+      text-align: center;
+      padding: 0 8px;
+    }
+
+    .geo-process-btn {
+      grid-column: 2;
+      justify-self: center;
+      margin-top: 12px;
+    }
+  }
+</style>
+
+<section class="geo-results">
+  <div class="geo-results-inner">
+
+    <div class="geo-results-badge">✦ ↗ RESULTADOS REALES</div>
+
+    <h2>
+      Resultados que sí
+      <span>impactan tu negocio</span>
+    </h2>
+
+    <p class="geo-results-sub">
+      Estrategias GEO que generan visibilidad en IA y resultados medibles para tu empresa.
+    </p>
+
+    <div class="geo-results-grid">
+
+      <article class="geo-result-card">
+        <div class="geo-result-icon">↗</div>
+        <h3>Resultados visibles en 30–90 días</h3>
+        <div class="geo-card-line"></div>
+        <p>Impacto real en el posicionamiento dentro de respuestas de IA.</p>
+      </article>
+
+      <article class="geo-result-card">
+        <div class="geo-result-icon">◌</div>
+        <h3>Mayor visibilidad en IA</h3>
+        <div class="geo-card-line"></div>
+        <p>Aparece en ChatGPT, Perplexity y buscadores inteligentes.</p>
+      </article>
+
+      <article class="geo-result-card">
+        <div class="geo-result-icon green">♙</div>
+        <h3>Tráfico más calificado</h3>
+        <div class="geo-card-line"></div>
+        <p>Usuarios con mayor intención de compra que se convierten en clientes.</p>
+      </article>
+
+      <article class="geo-result-card">
+        <div class="geo-result-icon blue">$</div>
+        <h3>Mejor eficiencia en adquisición</h3>
+        <div class="geo-card-line"></div>
+        <p>Optimización del costo por cliente y mayor retorno de tus campañas.</p>
+      </article>
+
+    </div>
+
+    <div class="geo-results-note">
+      <span>i</span>
+      <p>Los resultados dependen de tu industria, competencia y punto de partida.</p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  section.geo-results {
+    padding: 72px 20px;
+    background:
+      radial-gradient(circle at top center, rgba(124, 92, 255, 0.14), transparent 34%),
+      linear-gradient(180deg, #ffffff 0%, #faf9ff 100%);
+    overflow: hidden;
+  }
+
+  .geo-results-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .geo-results-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    border-radius: 999px;
+    background: rgba(124, 92, 255, 0.10);
+    color: #7c5cff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: 22px;
+    box-shadow: 0 12px 35px rgba(124, 92, 255, 0.10);
+  }
+
+  section.geo-results h2 {
+    margin: 0;
+    color: #08091f;
+    font-size: clamp(38px, 8vw, 76px);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+    font-weight: 850;
+  }
+
+  section.geo-results h2 span {
+    display: block;
+    color: #7c5cff;
+  }
+
+  .geo-results-sub {
+    max-width: 620px;
+    margin: 24px auto 0;
+    color: #667085;
+    font-size: clamp(17px, 2.5vw, 22px);
+    line-height: 1.45;
+  }
+
+  .geo-results-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 52px;
+  }
+
+  .geo-result-card {
+    min-height: 330px;
+    padding: 42px 26px 34px;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(17, 16, 39, 0.06);
+    box-shadow:
+      0 28px 80px rgba(63, 45, 150, 0.10),
+      inset 0 1px 0 rgba(255,255,255,0.85);
+    backdrop-filter: blur(18px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .geo-result-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background:
+      radial-gradient(circle at 30% 20%, rgba(255,255,255,0.9), transparent 35%),
+      rgba(124, 92, 255, 0.12);
+    color: #7c5cff;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 28px;
+  }
+
+  .geo-result-icon.green {
+    background:
+      radial-gradient(circle at 30% 20%, rgba(255,255,255,0.9), transparent 35%),
+      rgba(34, 197, 94, 0.13);
+    color: #22c55e;
+  }
+
+  .geo-result-icon.blue {
+    background:
+      radial-gradient(circle at 30% 20%, rgba(255,255,255,0.9), transparent 35%),
+      rgba(37, 99, 235, 0.10);
+    color: #2563eb;
+  }
+
+  .geo-result-card h3 {
+    margin: 0;
+    color: #08091f;
+    font-size: clamp(22px, 5vw, 28px);
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    font-weight: 850;
+    max-width: 280px;
+  }
+
+  .geo-card-line {
+    width: 44px;
+    height: 3px;
+    border-radius: 999px;
+    background: #7c5cff;
+    margin: 26px 0;
+  }
+
+  .geo-result-card p {
+    margin: 0;
+    color: #5f667a;
+    font-size: 16px;
+    line-height: 1.55;
+    max-width: 275px;
+  }
+
+  .geo-results-note {
+    max-width: 720px;
+    margin: 36px auto 0;
+    padding: 16px 20px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.76);
+    border: 1px solid rgba(124, 92, 255, 0.18);
+    box-shadow: 0 18px 50px rgba(63, 45, 150, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .geo-results-note span {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #7c5cff;
+    color: #7c5cff;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    font-weight: 800;
+    flex: 0 0 auto;
+  }
+
+  .geo-results-note p {
+    margin: 0;
+    color: #4b5565;
+    font-size: 14px;
+    line-height: 1.45;
+    text-align: left;
+  }
+
+  @media (min-width: 768px) {
+    section.geo-results {
+      padding: 96px 32px;
+    }
+
+    .geo-results-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+  }
+
+  @media (min-width: 1100px) {
+    section.geo-results {
+      padding: 118px 40px;
+    }
+
+    .geo-results-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .geo-result-card {
+      min-height: 360px;
+    }
+  }
+</style>
+
+<section class="cta-banner-section">
+  <div class="cta-banner">
+
+    <div class="cta-banner-icon">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+        <rect x="4" y="14" width="3.6" height="6" rx="1.2" fill="url(#cb1)"/>
+        <rect x="10.2" y="9" width="3.6" height="11" rx="1.2" fill="url(#cb1)"/>
+        <rect x="16.4" y="4" width="3.6" height="16" rx="1.2" fill="url(#cb1)"/>
+        <defs>
+          <linearGradient id="cb1" x1="4" y1="4" x2="20" y2="20">
+            <stop stop-color="#6C4CFF"/>
+            <stop offset="1" stop-color="#9B7CFF"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+
+    <div class="cta-banner-text">
+      <h3>No dejes que tu competencia sea recomendada por la IA.</h3>
+      <p>Empieza hoy y posiciona tu marca en la nueva era de búsqueda.</p>
+    </div>
+
+    <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Agencia%20GEO%20M%C3%A9xico.%0AHice%20clic%20en%3A%20Empezar%20ahora.%0AQuiero%20empezar%20a%20posicionar%20mi%20marca%20en%20IA.%0AMi%20sitio%20web%20es%3A" target="_blank" rel="noopener" class="cta-banner-btn">
+      Empezar ahora
+      <span aria-hidden="true">→</span>
+    </a>
+
+  </div>
+</section>
+
+<style>
+  .cta-banner-section {
+    width: 100%;
+    padding: 28px 20px 48px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", Arial, sans-serif;
+  }
+
+  .cta-banner {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 22px 26px;
+    border-radius: 18px;
+    background:
+      radial-gradient(circle at 18% 50%, rgba(255,255,255,0.10), transparent 40%),
+      linear-gradient(95deg, #5b3df0 0%, #7654ff 55%, #8a64ff 100%);
+    box-shadow:
+      0 22px 50px rgba(82, 52, 220, 0.28),
+      inset 0 1px 0 rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    color: #ffffff;
+  }
+
+  .cta-banner-icon {
+    flex: 0 0 52px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at 35% 25%, rgba(255,255,255,0.95), transparent 50%),
+      linear-gradient(180deg, #ffffff 0%, #f4f0ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      0 10px 24px rgba(20, 0, 60, 0.20),
+      inset 0 0 0 1px rgba(255,255,255,0.7);
+  }
+
+  .cta-banner-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cta-banner-text h3 {
+    margin: 0 0 6px;
+    font-size: 17px;
+    line-height: 1.25;
+    font-weight: 800;
+    letter-spacing: -0.012em;
+  }
+
+  .cta-banner-text p {
+    margin: 0;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.82);
+    font-weight: 500;
+  }
+
+  .cta-banner-btn {
+    flex: 0 0 auto;
+    height: 44px;
+    padding: 0 22px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #1a1633;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 12px 26px rgba(20, 0, 60, 0.18);
+    transition: transform .2s ease, box-shadow .2s ease;
+    white-space: nowrap;
+  }
+
+  .cta-banner-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 16px 30px rgba(20, 0, 60, 0.22);
+  }
+
+  .cta-banner-btn span {
+    color: #6c4cff;
+    font-size: 15px;
+    font-weight: 800;
+  }
+
+  @media (max-width: 760px) {
+    .cta-banner {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 24px;
+      gap: 16px;
+      text-align: left;
+    }
+
+    .cta-banner-text h3 {
+      font-size: 16px;
+    }
+
+    .cta-banner-btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
+
+<section class="faq-cta-section">
+  <div class="faq-cta-container">
+
+    <p class="faq-eyebrow">PREGUNTAS FRECUENTES GEO + AEO</p>
+
+    <div class="faq-cta-grid">
+
+      <div class="faq-box">
+
+        <details open>
+          <summary>¿Cómo aparecer en ChatGPT?</summary>
+          <p>Para aparecer en ChatGPT, una empresa necesita contenido estructurado, autoridad digital, presencia semántica clara y menciones consistentes en fuentes confiables. Agencia GEO México ayuda a las marcas a optimizar estos factores mediante estrategias GEO y AEO.</p>
+        </details>
+
+        <details>
+          <summary>¿Qué es GEO?</summary>
+          <p>GEO significa Generative Engine Optimization. Es la optimización para que una marca sea entendida, citada y recomendada por motores generativos de inteligencia artificial como ChatGPT, Perplexity y Google AI.</p>
+        </details>
+
+        <details>
+          <summary>¿Qué es AEO?</summary>
+          <p>AEO significa Answer Engine Optimization. Es la estrategia para estructurar contenido en formato de respuestas claras, directas y confiables, facilitando que buscadores e inteligencias artificiales lo usen como referencia.</p>
+        </details>
+
+        <details>
+          <summary>¿En qué se diferencia GEO del SEO tradicional?</summary>
+          <p>El SEO tradicional busca posicionar páginas en Google. GEO busca posicionar entidades, marcas y respuestas dentro de motores de inteligencia artificial. Una estrategia moderna combina SEO, GEO y AEO para lograr visibilidad en Google y en respuestas generadas por IA.</p>
+        </details>
+
+        <details>
+          <summary>¿Cómo logra una agencia que la IA recomiende una marca?</summary>
+          <p>Una agencia especializada en GEO y AEO crea contenido semántico, páginas pilar, FAQs, comparativas, señales de autoridad y menciones externas para que los modelos de IA identifiquen a la marca como una fuente relevante dentro de su industria.</p>
+        </details>
+
+        <details>
+          <summary>¿Cuánto tiempo toma ver resultados?</summary>
+          <p>Los resultados suelen comenzar a medirse entre 30 y 90 días, dependiendo de la autoridad actual de la marca, la competencia de la industria, la calidad del contenido y la cantidad de señales externas disponibles.</p>
+        </details>
+
+        <details>
+          <summary>¿Esto reemplaza el SEO?</summary>
+          <p>No. GEO y AEO no reemplazan el SEO; lo complementan. El SEO sigue siendo la base para Google, mientras que GEO y AEO preparan a la marca para ser visible en respuestas de inteligencia artificial.</p>
+        </details>
+
+        <details>
+          <summary>¿Cómo se mide el éxito en GEO y AEO?</summary>
+          <p>El éxito se mide revisando presencia en respuestas generadas por IA, menciones de marca, tráfico orgánico, autoridad temática, citas externas, rankings en Google y conversiones generadas desde búsquedas informativas y conversacionales.</p>
+        </details>
+
+      </div>
+
+      <div class="cta-card">
+        <h3>¿Listo para que la IA<br>recomiende tu marca?</h3>
+        <p>Analizamos tu presencia actual en ChatGPT, Perplexity y Google AI para detectar si tu marca aparece, cómo aparece y qué debes optimizar para ser elegida.</p>
+        <a href="/score">Calcular mi score de IA →</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .faq-cta-section {
+    width: 100%;
+    background: #ffffff;
+    padding: 42px 20px 58px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", Arial, sans-serif;
+    color: #101322;
+  }
+
+  .faq-cta-container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .faq-eyebrow {
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #6c4cff;
+    text-transform: uppercase;
+  }
+
+  .faq-cta-grid {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 34px;
+    align-items: stretch;
+  }
+
+  .faq-box {
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid #ececf4;
+    border-radius: 14px;
+    box-shadow: 0 14px 36px rgba(44, 36, 100, 0.06);
+    overflow: hidden;
+  }
+
+  .faq-box details {
+    border-bottom: 1px solid #ececf4;
+  }
+
+  .faq-box details:last-child {
+    border-bottom: none;
+  }
+
+  .faq-box summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 15px 22px;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #202334;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .faq-box summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-box summary::after {
+    content: "⌄";
+    font-size: 14px;
+    color: #6c7080;
+    transition: transform 0.2s ease;
+  }
+
+  .faq-box details[open] summary::after {
+    transform: rotate(180deg);
+  }
+
+  .faq-box p {
+    margin: -4px 22px 18px;
+    max-width: 720px;
+    font-size: 12px;
+    line-height: 1.65;
+    color: #5b6070;
+  }
+
+  .cta-card {
+    min-height: 260px;
+    border-radius: 16px;
+    background:
+      radial-gradient(circle at 85% 15%, rgba(130, 92, 255, 0.16), transparent 38%),
+      linear-gradient(135deg, #ffffff 0%, #f2eaff 100%);
+    border: 1px solid #ece5ff;
+    box-shadow: 0 18px 42px rgba(78, 52, 150, 0.08);
+    padding: 44px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cta-card h3 {
+    margin: 0 0 14px;
+    font-size: 24px;
+    line-height: 1.08;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #111426;
+  }
+
+  .cta-card p {
+    max-width: 360px;
+    margin: 0 0 22px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: #555b6c;
+  }
+
+  .cta-card a {
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 0 24px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #5b3cff 0%, #7c5cff 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 700;
+    box-shadow: 0 12px 28px rgba(91, 60, 255, 0.28);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .cta-card a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 38px rgba(91, 60, 255, 0.34);
+  }
+
+  @media (max-width: 840px) {
+    .faq-cta-grid {
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+
+    .cta-card {
+      padding: 34px 28px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .faq-cta-section {
+      padding: 36px 18px 46px;
+    }
+
+    .faq-box summary {
+      padding: 15px 18px;
+      font-size: 12px;
+    }
+
+    .faq-box p {
+      margin-left: 18px;
+      margin-right: 18px;
+    }
+
+    .cta-card h3 {
+      font-size: 22px;
+    }
+
+    .cta-card a {
+      width: 100%;
+    }
+  }
+</style>
+
+<section class="ai-cta-banner">
+  <div class="ai-cta-inner">
+    <div class="ai-cta-icon">✦</div>
+
+    <div class="ai-cta-copy">
+      <h3>
+        Tus clientes ya no buscan en Google.
+        <span>Ahora le preguntan a la IA a quién contratar.</span>
+      </h3>
+
+      <p>¿Tu empresa está apareciendo… o no?</p>
+    </div>
+
+    <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Agencia%20GEO%20M%C3%A9xico.%0AHice%20clic%20en%3A%20Posicionarme%20en%20IA.%0AQuiero%20que%20mi%20empresa%20aparezca%20en%20respuestas%20de%20ChatGPT%2C%20Perplexity%20y%20Google%20AI.%0AMi%20sitio%20web%20es%3A" target="_blank" rel="noopener" class="ai-cta-button">
+      <span>→</span>
+      Posicionarme en IA
+    </a>
+  </div>
+</section>
+
+<style>
+  .ai-cta-banner {
+    width: 100%;
+    padding: 22px 16px;
+    background: #ffffff;
+  }
+
+  .ai-cta-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 22px 20px;
+    border-radius: 24px;
+    background:
+      radial-gradient(circle at 90% 20%, rgba(124, 92, 255, 0.12), transparent 30%),
+      linear-gradient(135deg, #ffffff 0%, #f7f5ff 100%);
+    border: 1px solid rgba(124, 92, 255, 0.14);
+    box-shadow: 0 22px 70px rgba(32, 24, 80, 0.08);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .ai-cta-icon {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: rgba(124, 92, 255, 0.10);
+    color: #7c5cff;
+    font-size: 24px;
+    box-shadow: 0 0 28px rgba(124, 92, 255, 0.22);
+  }
+
+  .ai-cta-copy h3 {
+    margin: 0;
+    color: #08091f;
+    font-size: clamp(22px, 6vw, 34px);
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    font-weight: 850;
+  }
+
+  .ai-cta-copy h3 span {
+    display: block;
+    font-weight: 500;
+    color: #14142b;
+  }
+
+  .ai-cta-copy p {
+    margin: 14px 0 0;
+    color: #08091f;
+    font-size: clamp(18px, 5vw, 26px);
+    line-height: 1.18;
+    letter-spacing: -0.035em;
+    font-weight: 800;
+  }
+
+  .ai-cta-copy p::before {
+    content: "→ ";
+    color: #7c5cff;
+  }
+
+  .ai-cta-button {
+    width: 100%;
+    min-height: 56px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #7c5cff 0%, #4f35f5 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 850;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0 18px 42px rgba(79, 53, 245, 0.28);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+  }
+
+  .ai-cta-button:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.04);
+    box-shadow:
+      0 24px 58px rgba(79, 53, 245, 0.36),
+      0 0 34px rgba(124, 92, 255, 0.34);
+  }
+
+  .ai-cta-button span {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  @media (min-width: 768px) {
+    .ai-cta-banner {
+      padding: 30px 24px;
+    }
+
+    .ai-cta-inner {
+      grid-template-columns: 72px 1fr auto;
+      text-align: left;
+      padding: 34px 42px;
+      gap: 28px;
+    }
+
+    .ai-cta-icon {
+      margin: 0;
+    }
+
+    .ai-cta-button {
+      width: auto;
+      min-width: 260px;
+      padding: 0 28px;
+    }
+  }
+</style>
+
+<footer class="geo-footer">
+  <div class="footer-container">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="logo-bars">
+            <span></span><span></span><span></span>
+          </div>
+          <div>
+            <strong>AGENCIA GEO</strong>
+            <small>MÉXICO</small>
+          </div>
+        </div>
+
+        <p>Especialistas en posicionamiento<br>en inteligencia artificial.</p>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4>Recibe estrategias y tendencias<br>sobre IA y posicionamiento.</h4>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Tu email">
+          <button type="submit">→</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Agencia GEO México. Todos los derechos reservados.</p>
+    </div>
+
+  </div>
+</footer>
+
+<style>
+  .geo-footer {
+    width: 100%;
+    background:
+      radial-gradient(circle at 12% 0%, rgba(108, 76, 255, 0.18), transparent 26%),
+      linear-gradient(180deg, #08091a 0%, #050713 100%);
+    padding: 34px 20px 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", Arial, sans-serif;
+    color: #ffffff;
+  }
+
+  .footer-container {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 54px;
+    align-items: start;
+    padding-bottom: 28px;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .logo-bars {
+    display: flex;
+    align-items: end;
+    gap: 3px;
+    height: 30px;
+  }
+
+  .logo-bars span {
+    width: 7px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #9b7cff 0%, #5b3cff 100%);
+  }
+
+  .logo-bars span:nth-child(1) { height: 16px; }
+  .logo-bars span:nth-child(2) { height: 24px; }
+  .logo-bars span:nth-child(3) { height: 30px; }
+
+  .footer-logo strong {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+  }
+
+  .footer-logo small {
+    display: block;
+    margin-top: 3px;
+    font-size: 10px;
+    line-height: 1;
+    color: #9b7cff;
+    letter-spacing: 0.16em;
+    font-weight: 700;
+  }
+
+  .footer-brand p {
+    margin: 0 0 18px;
+    font-size: 11.5px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.62);
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 9px;
+  }
+
+  .social-icons a {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.28);
+    color: rgba(255,255,255,0.86);
+    text-decoration: none;
+    font-size: 9.5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-col h4,
+  .footer-newsletter h4 {
+    margin: 0 0 12px;
+    font-size: 11.5px;
+    line-height: 1.35;
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .footer-col a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1.25;
+    color: rgba(255,255,255,0.62);
+    transition: color .2s ease;
+  }
+
+  .footer-col a:hover {
+    color: #ffffff;
+  }
+
+  .footer-newsletter h4 {
+    max-width: 245px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    width: 230px;
+    height: 36px;
+    margin-top: 14px;
+    background: #ffffff;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 12px;
+    font-size: 11px;
+    color: #111426;
+    background: transparent;
+  }
+
+  .newsletter-form input::placeholder {
+    color: #8b90a0;
+  }
+
+  .newsletter-form button {
+    width: 42px;
+    border: 0;
+    background: linear-gradient(135deg, #5b3cff 0%, #7c5cff 100%);
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .footer-bottom p,
+  .footer-bottom a {
+    margin: 0;
+    font-size: 10.5px;
+    color: rgba(255,255,255,0.48);
+    text-decoration: none;
+  }
+
+  .footer-bottom div {
+    display: flex;
+    gap: 56px;
+  }
+
+  .footer-bottom a:hover {
+    color: rgba(255,255,255,0.78);
+  }
+
+  @media (max-width: 920px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 34px;
+    }
+
+    .footer-newsletter {
+      grid-column: span 2;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .geo-footer {
+      padding: 34px 20px 22px;
+    }
+
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .footer-newsletter {
+      grid-column: span 1;
+    }
+
+    .newsletter-form {
+      width: 100%;
+      max-width: 320px;
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .footer-bottom div {
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+  }
+</style>
+
+</body>
+</html>
