@@ -1,0 +1,229 @@
+# robots.txt para SEOGEO.MX
+# Optimizado para crawlers tradicionales y AI crawlers
+# Última actualización: Mayo 2026
+
+# Permitir acceso a todos los bots por defecto
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Crawl-delay para bots agresivos
+Crawl-delay: 1
+
+# ============================================
+# AI CRAWLERS - ACCESO COMPLETO
+# ============================================
+# Estos crawlers entrenan modelos de IA y generan respuestas
+# Queremos que indexen TODO nuestro contenido
+
+# OpenAI ChatGPT
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# Google AI (Bard/Gemini)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Amazon (Alexa)
+User-agent: Amazonbot
+Allow: /
+
+# Diffbot (knowledge graph)
+User-agent: Diffbot
+Allow: /
+
+# Common Crawl (dataset público usado por muchos LLMs)
+User-agent: CCBot
+Allow: /
+
+# ============================================
+# SEARCH ENGINE CRAWLERS
+# ============================================
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================
+# SEO & ANALYTICS TOOLS
+# ============================================
+
+# Ahrefs
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 2
+
+# SEMrush
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 2
+
+# Moz
+User-agent: rogerbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: dotbot
+Allow: /
+
+# Majestic
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 2
+
+# ============================================
+# SOCIAL MEDIA CRAWLERS
+# ============================================
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# Pinterest
+User-agent: Pinterestbot
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# ============================================
+# SITEMAPS
+# ============================================
+
+# Sitemap principal (crear este archivo)
+Sitemap: https://seogeo.mx/sitemap.xml
+
+# ============================================
+# INSTRUCCIONES ESPECIALES
+# ============================================
+
+# Archivo llms.txt para contexto de IA
+# Ver: https://seogeo.mx/llms.txt
+
+# ============================================
+# BLOQUEAR BOTS MALICIOSOS/SCRAPERS
+# ============================================
+
+# Scrapers conocidos
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# NOTA: Los bloqueamos después de permitir arriba
+# para que solo rastreen con delay
+
+# Bots spam
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: NaverBot
+Disallow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# ============================================
+# NOTAS DE IMPLEMENTACIÓN
+# ============================================
+
+# 1. Subir este archivo a: https://seogeo.mx/robots.txt
+# 2. Verificar en: https://seogeo.mx/robots.txt
+# 3. Probar en Google Search Console > robots.txt Tester
+# 4. Crear sitemap.xml con estas URLs:
+#    - https://seogeo.mx/
+#    - https://seogeo.mx/score
+#    - + cualquier página adicional
+# 5. Enviar sitemap en Google Search Console
+
+# IMPORTANTE:
+# - Este robots.txt da acceso COMPLETO a AI crawlers
+# - Esto es intencional para maximizar presencia en IAs
+# - Si tienes contenido que NO quieres en ChatGPT/Claude,
+#   agrégalo en Disallow arriba

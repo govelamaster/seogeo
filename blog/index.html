@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog GEO — Posicionamiento en IA | SEOGEO.MX</title>
+<meta name="description" content="Aprende sobre GEO, AEO y SEO para inteligencia artificial. Guías, estrategias y metodologías para que ChatGPT, Perplexity y Google AI recomienden tu marca.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="index.html">
+<meta name="theme-color" content="#5F35FF">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://seogeo.mx/blog/">
+<meta property="og:title" content="Blog GEO — Posicionamiento en IA | SEOGEO.MX">
+<meta property="og:description" content="Guías y estrategias de GEO, AEO y SEO para que la IA recomiende tu marca.">
+<meta property="og:image" content="https://seogeo.mx/blog/img/que-es-geo.webp">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Blog GEO — SEOGEO.MX",
+  "description": "Guías, estrategias y metodologías de Generative Engine Optimization para posicionar tu marca en ChatGPT, Perplexity y Google AI.",
+  "url": "https://seogeo.mx/blog/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "SEOGEO.MX",
+    "url": "https://seogeo.mx",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://seogeo.mx/logo-geo-ai-search-agency.svg"
+    }
+  },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Qué es GEO: Guía completa de Generative Engine Optimization",
+      "description": "Todo lo que necesitas saber sobre GEO, la nueva disciplina que optimiza tu marca para ser citada por motores de IA generativa.",
+      "datePublished": "2026-05-01",
+      "author": {"@type": "Organization", "name": "SEOGEO.MX"},
+      "publisher": {"@type": "Organization", "name": "SEOGEO.MX"}
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Como hacer que ChatGPT recomiende tu empresa",
+      "url": "https://seogeo.mx/blog/como-aparecer-en-chatgpt/",
+      "description": "Estrategias probadas para que ChatGPT mencione y recomiende tu marca cuando los usuarios preguntan por tu industria.",
+      "datePublished": "2026-05-06",
+      "author": {"@type": "Organization", "name": "SEOGEO.MX"},
+      "publisher": {"@type": "Organization", "name": "SEOGEO.MX"}
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "SEO vs GEO: Cuál es la diferencia y por qué importa",
+      "url": "https://seogeo.mx/blog/seo-vs-geo/",
+      "description": "Entiende las diferencias clave entre SEO tradicional y Generative Engine Optimization, y por qué tu estrategia necesita ambos.",
+      "datePublished": "2026-05-06",
+      "author": {"@type": "Organization", "name": "SEOGEO.MX"},
+      "publisher": {"@type": "Organization", "name": "SEOGEO.MX"}
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Google AI Overviews: Cómo aparecer en las respuestas de IA de Google",
+      "url": "https://seogeo.mx/blog/google-ai-overviews/",
+      "description": "Guía práctica para optimizar tu contenido y aparecer en los AI Overviews de Google Search.",
+      "datePublished": "2026-05-06",
+      "author": {"@type": "Organization", "name": "SEOGEO.MX"},
+      "publisher": {"@type": "Organization", "name": "SEOGEO.MX"}
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "AEO: Answer Engine Optimization explicado paso a paso",
+      "description": "Aprende a estructurar tu contenido para que los motores de respuesta lo usen como fuente principal.",
+      "datePublished": "2026-04-10",
+      "author": {"@type": "Organization", "name": "SEOGEO.MX"},
+      "publisher": {"@type": "Organization", "name": "SEOGEO.MX"}
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "CITA Framework: La metodologia para dominar la IA",
+      "url": "https://seogeo.mx/blog/cita-framework/",
+      "description": "Conoce los 4 pilares del CITA Framework: Citabilidad, Indexacion, Topica y Analisis para maxima visibilidad en IA.",
+      "datePublished": "2026-05-06",
+      "author": {"@type": "Organization", "name": "SEOGEO.MX"},
+      "publisher": {"@type": "Organization", "name": "SEOGEO.MX"}
+    }
+  ]
+}
+</script>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+:root{
+  --primary:#5F35FF;
+  --primary-light:#8B6CFF;
+  --primary-bg:rgba(95,53,255,.06);
+  --dark:#08091F;
+  --text:#25283A;
+  --text-light:#5b6072;
+  --bg:#f7f7fb;
+  --bg-alt:#f2edff;
+  --white:#fff;
+  --border:rgba(111,78,255,.12);
+  --shadow:0 18px 50px rgba(58,45,120,.07);
+  --radius:22px;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter",Arial,sans-serif;
+}
+
+body{
+  font-family:var(--font);
+  background:var(--bg);
+  color:var(--dark);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+
+/* NAV */
+.blog-nav{
+  position:sticky;
+  top:0;
+  z-index:100;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 28px;
+  background:rgba(255,255,255,.82);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+}
+
+.blog-nav-logo img{
+  display:block;
+  height:64px;
+  width:auto;
+}
+@media(max-width:640px){
+  .blog-nav-logo img{height:48px}
+}
+
+.blog-nav-links{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.blog-nav-link{
+  padding:8px 22px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:700;
+  transition:.25s ease;
+}
+
+.blog-nav-link.active{
+  background:var(--primary);
+  color:var(--white);
+}
+
+.blog-nav-link:not(.active){
+  background:rgba(111,78,255,.08);
+  color:var(--primary);
+}
+
+.blog-nav-link:not(.active):hover{
+  background:var(--primary);
+  color:var(--white);
+}
+
+/* HERO */
+.blog-hero{
+  padding:60px 24px 40px;
+  text-align:center;
+  background:
+    radial-gradient(circle at 30% 20%,rgba(95,53,255,.10),transparent 40%),
+    radial-gradient(circle at 70% 80%,rgba(95,53,255,.08),transparent 40%);
+}
+
+.blog-hero-pill{
+  display:inline-block;
+  padding:8px 20px;
+  border-radius:999px;
+  background:var(--white);
+  border:1px solid var(--border);
+  color:var(--primary);
+  font-size:11px;
+  font-weight:850;
+  letter-spacing:.08em;
+  margin-bottom:20px;
+}
+
+.blog-hero h1{
+  font-size:clamp(36px,6vw,64px);
+  line-height:.95;
+  letter-spacing:-.06em;
+  font-weight:900;
+  margin-bottom:16px;
+}
+
+.blog-hero h1 span{
+  color:var(--primary);
+}
+
+.blog-hero-sub{
+  font-size:clamp(16px,2vw,20px);
+  color:var(--text-light);
+  max-width:620px;
+  margin:0 auto;
+  line-height:1.45;
+}
+
+/* CATEGORY BAR */
+.cat-bar{
+  position:sticky;
+  top:60px;
+  z-index:90;
+  background:rgba(255,255,255,.88);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+  padding:12px 24px;
+}
+
+.cat-bar-in{
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+}
+
+.cat-bar-in::-webkit-scrollbar{display:none}
+
+.cat-pill{
+  padding:7px 18px;
+  border-radius:999px;
+  background:var(--white);
+  border:1px solid var(--border);
+  font-size:12px;
+  font-weight:700;
+  white-space:nowrap;
+  transition:.25s ease;
+  color:var(--text);
+}
+
+.cat-pill:hover,.cat-pill.active{
+  background:var(--primary);
+  color:var(--white);
+  border-color:var(--primary);
+}
+
+/* CONTAINER */
+.blog-ct{
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 24px;
+}
+
+/* FEATURED */
+.blog-featured{
+  margin:40px auto;
+  max-width:1200px;
+  padding:0 24px;
+}
+
+.feat-card{
+  display:grid;
+  grid-template-columns:1.2fr 1fr;
+  gap:0;
+  border-radius:var(--radius);
+  overflow:hidden;
+  background:var(--white);
+  border:1px solid var(--border);
+  box-shadow:var(--shadow);
+  transition:.3s ease;
+}
+
+.feat-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 28px 70px rgba(58,45,120,.12);
+}
+
+.feat-img{
+  width:100%;
+  height:100%;
+  min-height:320px;
+  object-fit:cover;
+  background:linear-gradient(135deg,var(--bg-alt),#e8e0ff);
+}
+
+.feat-img-placeholder{
+  width:100%;
+  min-height:320px;
+  background:linear-gradient(135deg,#e8e0ff 0%,#d4c8ff 50%,#c0b0ff 100%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:80px;
+  color:rgba(95,53,255,.3);
+}
+
+.feat-body{
+  padding:40px 36px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.feat-cat{
+  display:inline-block;
+  width:fit-content;
+  padding:5px 14px;
+  border-radius:999px;
+  background:var(--bg-alt);
+  color:var(--primary);
+  font-size:10px;
+  font-weight:850;
+  letter-spacing:.04em;
+  margin-bottom:16px;
+  text-transform:uppercase;
+}
+
+.feat-title{
+  font-size:clamp(24px,3vw,34px);
+  line-height:1.1;
+  font-weight:850;
+  letter-spacing:-.04em;
+  margin-bottom:14px;
+}
+
+.feat-excerpt{
+  font-size:15px;
+  line-height:1.5;
+  color:var(--text-light);
+  margin-bottom:20px;
+}
+
+.feat-meta{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:12px;
+  color:var(--text-light);
+  margin-bottom:22px;
+}
+
+.feat-dot{
+  width:4px;
+  height:4px;
+  border-radius:50%;
+  background:var(--text-light);
+}
+
+.feat-cta{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:var(--primary);
+  font-size:14px;
+  font-weight:800;
+}
+
+/* GRID */
+.blog-grid-title{
+  font-size:28px;
+  font-weight:850;
+  letter-spacing:-.04em;
+  margin:48px 0 24px;
+}
+
+.blog-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+  margin-bottom:48px;
+}
+
+.blog-card{
+  border-radius:var(--radius);
+  overflow:hidden;
+  background:var(--white);
+  border:1px solid var(--border);
+  box-shadow:0 12px 32px rgba(58,45,120,.05);
+  transition:.3s ease;
+  display:flex;
+  flex-direction:column;
+}
+
+.blog-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 24px 60px rgba(58,45,120,.12);
+}
+
+.card-img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+.card-img-placeholder{
+  width:100%;
+  height:200px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:48px;
+  color:rgba(95,53,255,.25);
+}
+
+.card-img-placeholder:nth-child(1){background:linear-gradient(135deg,#ede7ff,#d8ccff)}
+
+.blog-card:nth-child(1) .card-img-placeholder{background:linear-gradient(135deg,#e7edff,#ccd8ff)}
+.blog-card:nth-child(2) .card-img-placeholder{background:linear-gradient(135deg,#ede7ff,#d8ccff)}
+.blog-card:nth-child(3) .card-img-placeholder{background:linear-gradient(135deg,#e7fff2,#ccffd8)}
+.blog-card:nth-child(4) .card-img-placeholder{background:linear-gradient(135deg,#fff7e7,#ffe8cc)}
+.blog-card:nth-child(5) .card-img-placeholder{background:linear-gradient(135deg,#e7f0ff,#cce0ff)}
+.blog-card:nth-child(6) .card-img-placeholder{background:linear-gradient(135deg,#f0e7ff,#e0ccff)}
+
+.card-body{
+  padding:22px 20px 24px;
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+
+.card-cat{
+  display:inline-block;
+  width:fit-content;
+  padding:4px 12px;
+  border-radius:999px;
+  background:var(--bg-alt);
+  color:var(--primary);
+  font-size:10px;
+  font-weight:850;
+  letter-spacing:.04em;
+  margin-bottom:12px;
+  text-transform:uppercase;
+}
+
+.card-title{
+  font-size:19px;
+  line-height:1.15;
+  font-weight:850;
+  letter-spacing:-.03em;
+  margin-bottom:10px;
+}
+
+.card-excerpt{
+  font-size:13px;
+  line-height:1.5;
+  color:var(--text-light);
+  margin-bottom:16px;
+  flex:1;
+}
+
+.card-meta{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:11px;
+  color:var(--text-light);
+}
+
+.card-read{
+  color:var(--primary);
+  font-weight:800;
+  font-size:12px;
+}
+
+/* CTA SECTION */
+.blog-cta{
+  max-width:1200px;
+  margin:0 auto 60px;
+  padding:0 24px;
+}
+
+.blog-cta-card{
+  background:#0D0B1A;
+  border:1px solid rgba(95,53,255,.25);
+  border-radius:20px;
+  padding:52px 40px;
+  text-align:center;
+  color:var(--white);
+  position:relative;
+  overflow:hidden;
+}
+
+.blog-cta-card::before{
+  content:"";
+  position:absolute;
+  top:0;left:0;right:0;
+  height:3px;
+  background:linear-gradient(90deg,transparent,var(--primary),transparent);
+}
+
+.blog-cta-card::after{
+  content:"";
+  position:absolute;
+  top:50%;left:50%;
+  width:500px;height:500px;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(95,53,255,.08) 0%,transparent 70%);
+  pointer-events:none;
+}
+
+.blog-cta-title{
+  font-size:clamp(22px,3.5vw,32px);
+  font-weight:800;
+  letter-spacing:-.03em;
+  line-height:1.15;
+  margin-bottom:14px;
+  position:relative;
+  z-index:1;
+}
+
+.blog-cta-sub{
+  font-size:15px;
+  color:rgba(255,255,255,.55);
+  margin-bottom:28px;
+  position:relative;
+  z-index:1;
+  max-width:480px;
+  margin-left:auto;
+  margin-right:auto;
+  line-height:1.6;
+}
+
+.blog-cta-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:14px 36px;
+  border-radius:999px;
+  background:var(--primary);
+  color:var(--white);
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:.02em;
+  box-shadow:0 0 24px rgba(95,53,255,.35);
+  transition:.3s ease;
+  position:relative;
+  z-index:1;
+}
+
+.blog-cta-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 0 40px rgba(95,53,255,.5);
+  background:#7048FF;
+}
+
+/* FOOTER */
+.blog-footer{
+  background:var(--dark);
+  color:rgba(255,255,255,.6);
+  padding:40px 24px;
+  text-align:center;
+  font-size:13px;
+}
+
+.blog-footer a{
+  color:var(--primary-light);
+}
+
+.blog-footer-brand{
+  font-size:18px;
+  font-weight:850;
+  color:var(--white);
+  margin-bottom:8px;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .feat-card{
+    grid-template-columns:1fr;
+  }
+
+  .feat-img-placeholder{
+    min-height:220px;
+  }
+
+  .feat-body{
+    padding:28px 24px;
+  }
+
+  .blog-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:16px;
+  }
+}
+
+@media(max-width:600px){
+  .blog-hero{
+    padding:40px 20px 28px;
+  }
+
+  .blog-grid{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+
+  .card-img-placeholder{
+    height:180px;
+  }
+
+  .blog-cta-card{
+    padding:36px 24px;
+  }
+
+  .cat-bar{
+    padding:10px 16px;
+    top:58px;
+  }
+
+  .cat-pill{
+    font-size:11px;
+    padding:5px 14px;
+  }
+
+  .blog-nav{
+    padding:12px 18px;
+  }
+
+  .feat-title{
+    font-size:22px;
+  }
+
+  .blog-grid-title{
+    font-size:22px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="blog-nav">
+  <a href="../index.html" class="blog-nav-logo">
+    <img src="../logo-geo-ai-search-agency.svg" alt="SEOGEO.MX — Agencia SEO GEO AEO en Mexico" width="158" height="64">
+  </a>
+  <div class="blog-nav-links">
+    <a href="../index.html" class="blog-nav-link">Inicio</a>
+    <a href="index.html" class="blog-nav-link active">Blog</a>
+  </div>
+</nav>
+
+<!-- CATEGORY BAR -->
+<div class="cat-bar">
+  <div class="cat-bar-in">
+    <a href="index.html" class="cat-pill active">Todos</a>
+    <a href="que-es-geo/index.html" class="cat-pill">GEO</a>
+    <a href="que-es-aeo/index.html" class="cat-pill">AEO</a>
+    <a href="como-aparecer-en-chatgpt/index.html" class="cat-pill">ChatGPT</a>
+    <a href="google-ai-overviews/index.html" class="cat-pill">Google AI</a>
+    <a href="seo-vs-geo/index.html" class="cat-pill">Estrategia</a>
+    <a href="cita-framework/index.html" class="cat-pill">Metodologia</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="blog-hero">
+  <div class="blog-hero-pill">BLOG SEOGEO.MX</div>
+  <h1>Todo sobre <span>posicionamiento en IA</span></h1>
+  <p class="blog-hero-sub">
+    Guias, estrategias y metodologias para que ChatGPT, Perplexity y Google AI recomienden tu marca.
+  </p>
+</header>
+
+<!-- FEATURED ARTICLE -->
+<div class="blog-featured">
+  <a href="que-es-geo/index.html" class="feat-card">
+    <img src="img/que-es-geo.webp" alt="Que es GEO Generative Engine Optimization guia completa 2026 SEOGEO.MX" class="feat-img" loading="eager">
+    <div class="feat-body">
+      <div class="feat-cat">GEO</div>
+      <h2 class="feat-title">Que es GEO: Guia completa de Generative Engine Optimization</h2>
+      <p class="feat-excerpt">
+        Todo lo que necesitas saber sobre GEO, la nueva disciplina que optimiza tu marca para ser citada y recomendada por motores de IA generativa como ChatGPT, Perplexity y Google AI.
+      </p>
+      <div class="feat-meta">
+        <span>Mayo 2026</span>
+        <span class="feat-dot"></span>
+        <span>12 min de lectura</span>
+      </div>
+      <span class="feat-cta">Leer articulo completo &#8594;</span>
+    </div>
+  </a>
+</div>
+
+<!-- ARTICLES GRID -->
+<div class="blog-ct">
+  <h2 class="blog-grid-title">Articulos recientes</h2>
+
+  <div class="blog-grid">
+
+    <!-- Card 1 -->
+    <a href="como-aparecer-en-chatgpt/index.html" class="blog-card">
+      <img src="img/chatgpt-recomiende-empresa.webp" alt="Como hacer que ChatGPT recomiende tu empresa — SEO para ChatGPT 2026" class="card-img" loading="lazy">
+      <div class="card-body">
+        <span class="card-cat">ChatGPT</span>
+        <h3 class="card-title">Como hacer que ChatGPT recomiende tu empresa</h3>
+        <p class="card-excerpt">
+          Estrategias probadas para que ChatGPT mencione y recomiende tu marca cuando los usuarios preguntan por tu industria.
+        </p>
+        <div class="card-meta">
+          <span>Mayo 2026</span>
+          <span class="card-read">Leer &#8594;</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 2 -->
+    <a href="seo-vs-geo/index.html" class="blog-card">
+      <img src="img/seo-vs-geo.webp" alt="SEO vs GEO diferencias clave — Generative Engine Optimization vs SEO tradicional" class="card-img" loading="lazy">
+      <div class="card-body">
+        <span class="card-cat">Estrategia</span>
+        <h3 class="card-title">SEO vs GEO: Cual es la diferencia y por que importa</h3>
+        <p class="card-excerpt">
+          Entiende las diferencias clave entre SEO tradicional y Generative Engine Optimization, y por que tu estrategia necesita ambos.
+        </p>
+        <div class="card-meta">
+          <span>Abril 2026</span>
+          <span class="card-read">Leer &#8594;</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 3 -->
+    <a href="google-ai-overviews/index.html" class="blog-card">
+      <img src="img/google-ai-overviews.webp" alt="Google AI Overviews como aparecer en respuestas de IA de Google" class="card-img" loading="lazy">
+      <div class="card-body">
+        <span class="card-cat">Google AI</span>
+        <h3 class="card-title">Google AI Overviews: Como aparecer en las respuestas de IA de Google</h3>
+        <p class="card-excerpt">
+          Guia practica para optimizar tu contenido y aparecer en los AI Overviews de Google Search.
+        </p>
+        <div class="card-meta">
+          <span>Abril 2026</span>
+          <span class="card-read">Leer &#8594;</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 4 -->
+    <a href="que-es-aeo/index.html" class="blog-card">
+      <img src="img/aeo-hero.webp" alt="Que es AEO Answer Engine Optimization guia completa 2026" class="card-img" loading="lazy">
+      <div class="card-body">
+        <span class="card-cat">AEO</span>
+        <h3 class="card-title">Que es AEO: Guia Completa de Answer Engine Optimization</h3>
+        <p class="card-excerpt">
+          Guia completa de AEO en 2026. Como optimizar tu marca para que los Answer Engines la recomienden.
+        </p>
+        <div class="card-meta">
+          <span>Mayo 2026</span>
+          <span class="card-read">Leer &#8594;</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 5 -->
+    <a href="cita-framework/index.html" class="blog-card">
+      <img src="img/cita-framework.webp" alt="CITA Framework metodologia para posicionamiento en inteligencia artificial" class="card-img" loading="lazy">
+      <div class="card-body">
+        <span class="card-cat">Metodologia</span>
+        <h3 class="card-title">CITA Framework: La metodologia para dominar la IA</h3>
+        <p class="card-excerpt">
+          Conoce los 4 pilares del CITA Framework: Citabilidad, Indexacion, Topica y Analisis para maxima visibilidad en IA.
+        </p>
+        <div class="card-meta">
+          <span>Mayo 2026</span>
+          <span class="card-read">Leer &#8594;</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 6 -->
+    <a href="index.html#" class="blog-card">
+      <img src="img/que-es-geo.webp" alt="Como medir Citation Rate y visibilidad en inteligencia artificial" class="card-img" loading="lazy">
+      <div class="card-body">
+        <span class="card-cat">GEO</span>
+        <h3 class="card-title">Como medir tu Citation Rate en motores de IA</h3>
+        <p class="card-excerpt">
+          Metricas y herramientas para rastrear cuantas veces la inteligencia artificial menciona tu marca.
+        </p>
+        <div class="card-meta">
+          <span>Marzo 2026</span>
+          <span class="card-read">Leer &#8594;</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="blog-cta">
+  <div class="blog-cta-card">
+    <h2 class="blog-cta-title">Haz que la IA recomiende tu marca</h2>
+    <p class="blog-cta-sub">Analiza gratis tu presencia en ChatGPT, Perplexity y Google AI.</p>
+    <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20del%20blog%20de%20SEOGEO.MX.%20Quiero%20analizar%20mi%20presencia%20en%20IA." target="_blank" class="blog-cta-btn">
+      Quiero mi analisis GEO &#8594;
+    </a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="blog-footer">
+  <div class="blog-footer-brand">SEOGEO.MX</div>
+  <p>Agencia especializada en Generative Engine Optimization en Mexico.</p>
+  <p style="margin-top:16px">&copy; 2026 SEOGEO.MX &mdash; <a href="../index.html">Inicio</a> &middot; <a href="index.html">Blog</a> &middot; <a href="../score">GEO Score</a></p>
+</footer>
+
+</body>
+</html>

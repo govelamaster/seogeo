@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora GEO Score - ¿Tu marca aparece en ChatGPT y Perplexity?</title>
+    <meta name="description" content="Descubre en 60 segundos qué tan preparado está tu sitio para ser citado por inteligencias artificiales como ChatGPT, Perplexity y Google AI Overviews.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f1f5f9;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-top: 20px;
+        }
+
+        .logo h1 {
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .logo p {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            color: #06b6d4;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #e2e8f0;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 14px 16px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            color: #f1f5f9;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #06b6d4;
+            box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.1);
+        }
+
+        input::placeholder {
+            color: #64748b;
+        }
+
+        .input-hint {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 6px;
+            font-style: italic;
+        }
+
+        .input-valid {
+            border-color: #10b981 !important;
+        }
+
+        .input-error {
+            border-color: #ef4444 !important;
+        }
+
+        .error-message {
+            font-size: 13px;
+            color: #ef4444;
+            margin-top: 6px;
+            display: none;
+        }
+
+        .error-message.active {
+            display: block;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, #06b6d4 0%, #0284c7 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(6, 182, 212, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(6, 182, 212, 0.2);
+            border-top-color: #06b6d4;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-steps {
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .loading-step {
+            padding: 8px 0;
+            color: #64748b;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .loading-step.active {
+            color: #06b6d4;
+        }
+
+        .loading-step svg {
+            width: 20px;
+            height: 20px;
+            opacity: 0.3;
+        }
+
+        .loading-step.active svg {
+            opacity: 1;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results.active {
+            display: block;
+        }
+
+        .score-circle {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+
+        .score-display {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .score-number {
+            font-size: 72px;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .score-label {
+            font-size: 14px;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ef4444 0%, #f59e0b 50%, #10b981 100%);
+            transition: width 1.5s ease-out;
+            border-radius: 15px;
+        }
+
+        .score-status {
+            text-align: center;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .score-status.critical {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #fca5a5;
+        }
+
+        .score-status.medium {
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            color: #fcd34d;
+        }
+
+        .score-status.good {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: #6ee7b7;
+        }
+
+        .breakdown {
+            margin-bottom: 40px;
+        }
+
+        .breakdown h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #e2e8f0;
+        }
+
+        .category {
+            margin-bottom: 20px;
+        }
+
+        .category-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .category-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #cbd5e1;
+        }
+
+        .category-score {
+            font-size: 14px;
+            font-weight: 700;
+            color: #06b6d4;
+        }
+
+        .category-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(15, 23, 42, 0.8);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .category-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #06b6d4 0%, #3b82f6 100%);
+            border-radius: 4px;
+            transition: width 1s ease-out;
+        }
+
+        .issues {
+            margin-bottom: 40px;
+        }
+
+        .issues h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .issue-item {
+            background: rgba(239, 68, 68, 0.05);
+            border-left: 3px solid #ef4444;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 4px;
+        }
+
+        .issue-title {
+            font-weight: 700;
+            color: #fca5a5;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .issue-problems {
+            margin: 8px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .issue-problems li {
+            padding: 4px 0;
+            color: #cbd5e1;
+            font-size: 14px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .issue-problems li:before {
+            content: "❌";
+            flex-shrink: 0;
+        }
+
+        .issue-tip {
+            margin-top: 12px;
+            padding: 12px;
+            background: rgba(6, 182, 212, 0.1);
+            border-radius: 4px;
+            font-size: 13px;
+            color: #67e8f9;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .issue-tip:before {
+            content: "💡";
+            flex-shrink: 0;
+        }
+
+        .warning-box {
+            background: rgba(239, 68, 68, 0.1);
+            border: 2px solid #ef4444;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 40px;
+        }
+
+        .warning-box h4 {
+            color: #fca5a5;
+            font-size: 16px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .warning-box p {
+            color: #e2e8f0;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cta-box h3 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: white;
+        }
+
+        .cta-box p {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 24px;
+            font-size: 16px;
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 32px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-whatsapp:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-email {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 32px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin-left: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-email:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 640px) {
+            .hero h2 {
+                font-size: 28px;
+            }
+            
+            .hero p {
+                font-size: 16px;
+            }
+
+            .card {
+                padding: 24px;
+            }
+
+            .score-number {
+                font-size: 56px;
+            }
+
+            .btn-whatsapp, .btn-email {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                margin-left: 0;
+                margin-top: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>SEOGEO.MX</h1>
+            <p>Calculadora GEO Score — México</p>
+        </div>
+
+        <div id="formSection">
+            <div class="hero">
+                <div class="badge">✨ 100% Gratis — Resultado en 60 segundos</div>
+                <h2>¿Tu marca aparece cuando ChatGPT o Perplexity responden preguntas de tu industria?</h2>
+                <p>Descubre tu GEO Score: qué tan preparado está tu sitio para ser citado por IAs como ChatGPT, Perplexity, Gemini y Google AI Overviews.</p>
+            </div>
+
+            <div class="card">
+                <form id="geoForm">
+                    <div class="form-group">
+                        <label for="url">URL de tu sitio web *</label>
+                        <input 
+                            type="text" 
+                            id="url" 
+                            name="url" 
+                            placeholder="ejemplo.com, www.ejemplo.com, o https://ejemplo.com" 
+                            required
+                        >
+                        <div class="input-hint">✓ Acepta cualquier formato de dominio</div>
+                        <div class="error-message" id="urlError">Por favor ingresa un dominio válido</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="industry">Tu industria/nicho *</label>
+                        <select id="industry" name="industry" required>
+                            <option value="">Seleccionar...</option>
+                            <option value="turismo">Turismo y Hospitalidad</option>
+                            <option value="legal">Legal / Abogados / Notarías</option>
+                            <option value="ecommerce">Ecommerce / Retail</option>
+                            <option value="salud">Salud / Wellness / Clínicas</option>
+                            <option value="saas">B2B SaaS / Tecnología</option>
+                            <option value="bienes-raices">Bienes Raíces / Inmobiliaria</option>
+                            <option value="construccion">Construcción / Infraestructura</option>
+                            <option value="educacion">Educación / Capacitación</option>
+                            <option value="financiero">Servicios Financieros</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email (para enviar reporte completo) *</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="tu@email.com" 
+                            required
+                        >
+                    </div>
+
+                    <button type="submit" class="btn" id="submitBtn">
+                        🔍 CALCULAR MI GEO SCORE
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div id="loadingSection" class="card loading">
+            <div class="spinner"></div>
+            <h3 style="margin-bottom: 30px; color: #06b6d4;">Analizando tu sitio...</h3>
+            <div class="loading-steps">
+                <div class="loading-step" data-step="1">
+                    <svg fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Verificando datos estructurados (Schema.org)</span>
+                </div>
+                <div class="loading-step" data-step="2">
+                    <svg fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Analizando autoridad de marca</span>
+                </div>
+                <div class="loading-step" data-step="3">
+                    <svg fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Revisando contenido para IAs</span>
+                </div>
+                <div class="loading-step" data-step="4">
+                    <svg fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Evaluando estructura semántica</span>
+                </div>
+                <div class="loading-step" data-step="5">
+                    <svg fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Midiendo señales de citabilidad</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="resultsSection" class="results">
+            <div class="card">
+                <div class="score-display">
+                    <div class="score-number" id="scoreNumber">--</div>
+                    <div class="score-label">TU GEO SCORE</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div class="score-status" id="scoreStatus"></div>
+
+                <div class="breakdown">
+                    <h3>📊 Desglose por Categoría</h3>
+                    <div id="categoriesBreakdown"></div>
+                </div>
+
+                <div class="issues">
+                    <h3>🔴 Problemas Críticos Encontrados</h3>
+                    <div id="issuesList"></div>
+                </div>
+
+                <div class="warning-box">
+                    <h4>📈 QUÉ PASA SI NO ARREGLAS ESTO:</h4>
+                    <p>Cuando alguien pregunta a ChatGPT: <strong>"¿Cuáles son las mejores empresas de <span id="industryName"></span> en México?"</strong></p>
+                    <p style="margin-top: 16px;">→ <strong>TUS COMPETIDORES</strong> aparecen citados<br>
+                    → <strong>TÚ NO EXISTES</strong> en la respuesta<br>
+                    → <strong>PIERDES CLIENTES</strong> que nunca sabrás que buscaban justo lo que ofreces</p>
+                </div>
+
+                <div class="cta-box">
+                    <h3>¿Quieres subir tu score a 80+ en los próximos 90 días?</h3>
+                    <p>Agenda una llamada estratégica de 30 minutos (sin costo) y recibe un roadmap personalizado con las 15 acciones prioritarias para tu sitio.</p>
+                    <a href="https://wa.me/5255389887615?text=Hola%2C%20vengo%20de%20la%20Calculadora%20GEO%20Score.%0AHice%20clic%20en%3A%20Agendar%20llamada.%0AQuiero%20mejorar%20mi%20posicionamiento%20en%20IA.%0AMi%20sitio%20web%20es%3A" class="btn-whatsapp" target="_blank" rel="noopener">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        AGENDAR LLAMADA
+                    </a>
+                    <a href="https://seogeo.mx/cdn-cgi/l/email-protection#1870777479586b7d777f7d77367560276b6d7a727d7b6c254b7774717b716c6d7c3d2a284a7d68776a6c7d3d2a285f5d573d2a285b777568747d6c773e7a777c6125507774793d2a5b3d2a28797b797a773d2a287c7d3d2a287b79747b6d74796a3d2a2875713d2a285f5d573d2a284b7b776a7d3d2a28613d2a28696d717d6a773d2a286a7d7b717a716a3d2a287d743d2a286a7d68776a6c7d3d2a287b777568747d6c7736" class="btn-email">
+                        📧 RECIBIR REPORTE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        const form = document.getElementById('geoForm');
+        const formSection = document.getElementById('formSection');
+        const loadingSection = document.getElementById('loadingSection');
+        const resultsSection = document.getElementById('resultsSection');
+        const urlInput = document.getElementById('url');
+        const urlError = document.getElementById('urlError');
+
+        // Función para normalizar y validar URL flexible
+        const normalizeURL = (input) => {
+            let url = input.trim();
+            
+            // Remover espacios
+            url = url.replace(/\s+/g, '');
+            
+            // Si no tiene protocolo, agregar https://
+            if (!url.match(/^https?:\/\//i)) {
+                url = 'https://' + url;
+            }
+            
+            // Validar que sea un dominio válido
+            const urlPattern = /^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;
+            
+            if (urlPattern.test(url)) {
+                return { valid: true, normalized: url };
+            }
+            
+            return { valid: false, normalized: null };
+        };
+
+        // Validación en tiempo real
+        urlInput.addEventListener('input', (e) => {
+            const result = normalizeURL(e.target.value);
+            
+            if (e.target.value.length > 3) {
+                if (result.valid) {
+                    urlInput.classList.remove('input-error');
+                    urlInput.classList.add('input-valid');
+                    urlError.classList.remove('active');
+                } else {
+                    urlInput.classList.remove('input-valid');
+                    urlInput.classList.add('input-error');
+                    urlError.classList.add('active');
+                }
+            } else {
+                urlInput.classList.remove('input-valid', 'input-error');
+                urlError.classList.remove('active');
+            }
+        });
+
+        // Análisis simulado inteligente
+        const analyzeWebsite = (url, industry) => {
+            // Score base aleatorio entre 20-60 (mayoría sitios no optimizados)
+            const baseScore = Math.floor(Math.random() * 40) + 20;
+
+            // Categorías con scoring inteligente
+            const categories = [
+                {
+                    name: 'Schema Markup',
+                    max: 25,
+                    score: Math.floor(Math.random() * 15) + 5, // 5-20 de 25
+                },
+                {
+                    name: 'Autoridad de Marca',
+                    max: 20,
+                    score: Math.floor(Math.random() * 12) + 4, // 4-16 de 20
+                },
+                {
+                    name: 'Contenido Optimizado',
+                    max: 30,
+                    score: Math.floor(Math.random() * 15) + 5, // 5-20 de 30
+                },
+                {
+                    name: 'Estructura Semántica',
+                    max: 15,
+                    score: Math.floor(Math.random() * 8) + 2, // 2-10 de 15
+                },
+                {
+                    name: 'Señales Citabilidad',
+                    max: 10,
+                    score: Math.floor(Math.random() * 5), // 0-5 de 10
+                }
+            ];
+
+            const totalScore = categories.reduce((sum, cat) => sum + cat.score, 0);
+
+            // Issues por industria
+            const industryIssues = {
+                turismo: ['Falta schema LocalBusiness y TouristAttraction', 'Sin FAQ sobre destinos populares'],
+                legal: ['No tienes schema LegalService', 'Contenido no responde preguntas legales comunes'],
+                ecommerce: ['Schema Product incompleto', 'Reviews sin markup estructurado'],
+                salud: ['Falta schema MedicalOrganization', 'Contenido sin credenciales E-E-A-T'],
+                saas: ['No tienes schema SoftwareApplication', 'Casos de uso poco específicos'],
+                'bienes-raices': ['Schema RealEstateAgent ausente', 'Listados sin geo-targeting'],
+                construccion: ['Proyectos sin schema CreativeWork', 'Portfolio no optimizado para IAs'],
+                educacion: ['Schema EducationalOrganization faltante', 'Cursos sin estructura Course'],
+                financiero: ['Falta schema FinancialService', 'Sin menciones en Knowledge Graph'],
+                otro: ['Schema Organization incompleto', 'Contenido genérico sin autoridad']
+            };
+
+            const issues = [
+                {
+                    title: 'Schema.org incompleto',
+                    problems: [
+                        industryIssues[industry]?.[0] || 'No tienes Organization schema completo',
+                        'Falta FAQPage schema',
+                        'Sin BreadcrumbList en navegación'
+                    ],
+                    tip: 'Las IAs usan Schema.org como mapa de lectura principal de tu contenido'
+                },
+                {
+                    title: 'Contenido no optimizado para IAs',
+                    problems: [
+                        'Artículos sin respuestas directas en primeros párrafos',
+                        'Párrafos >200 palabras (IAs prefieren <150)',
+                        'Sin listas numeradas ni bullets',
+                        industryIssues[industry]?.[1] || 'Contenido genérico sin diferenciadores'
+                    ],
+                    tip: 'ChatGPT y Perplexity necesitan formato escaneable y respuestas inmediatas'
+                },
+                {
+                    title: 'CERO menciones de marca verificadas',
+                    problems: [
+                        'No apareces en Google Knowledge Graph',
+                        'Sin entidad en Wikipedia o Wikidata',
+                        'Redes sociales no conectadas vía sameAs',
+                        'Sin menciones en medios reconocidos'
+                    ],
+                    tip: 'IAs buscan señales de autoridad externa antes de citarte como fuente confiable'
+                }
+            ];
+
+            return {
+                score: totalScore,
+                categories,
+                issues
+            };
+        };
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const urlRaw = document.getElementById('url').value;
+            const industry = document.getElementById('industry').value;
+            const email = document.getElementById('email').value;
+
+            // Normalizar y validar URL
+            const urlResult = normalizeURL(urlRaw);
+            
+            if (!urlResult.valid) {
+                urlInput.classList.add('input-error');
+                urlError.classList.add('active');
+                urlError.textContent = 'Por favor ingresa un dominio válido (ej: ejemplo.com)';
+                return;
+            }
+
+            const url = urlResult.normalized;
+
+            // Ocultar form, mostrar loading
+            formSection.style.display = 'none';
+            loadingSection.classList.add('active');
+
+            // Animar pasos de loading
+            const steps = document.querySelectorAll('.loading-step');
+            for (let i = 0; i < steps.length; i++) {
+                await new Promise(resolve => setTimeout(resolve, 800));
+                steps[i].classList.add('active');
+            }
+
+            await new Promise(resolve => setTimeout(resolve, 1500));
+
+            // Analizar y mostrar resultados
+            const results = analyzeWebsite(url, industry);
+
+            // Ocultar loading, mostrar results
+            loadingSection.classList.remove('active');
+            resultsSection.classList.add('active');
+
+            // Animar score
+            const scoreNumber = document.getElementById('scoreNumber');
+            const progressFill = document.getElementById('progressFill');
+            const scoreStatus = document.getElementById('scoreStatus');
+
+            let currentScore = 0;
+            const targetScore = results.score;
+            const increment = targetScore / 50;
+
+            const scoreInterval = setInterval(() => {
+                currentScore += increment;
+                if (currentScore >= targetScore) {
+                    currentScore = targetScore;
+                    clearInterval(scoreInterval);
+                }
+                scoreNumber.textContent = Math.floor(currentScore) + '/100';
+            }, 30);
+
+            setTimeout(() => {
+                progressFill.style.width = targetScore + '%';
+            }, 100);
+
+            // Status según score
+            if (targetScore < 40) {
+                scoreStatus.className = 'score-status critical';
+                scoreStatus.innerHTML = `
+                    <div style="font-size: 18px; margin-bottom: 8px;">🔴 PREPARACIÓN CRÍTICA</div>
+                    <div>Tu sitio NO está listo para citaciones en IAs. Riesgo: tus competidores pueden estar siendo recomendados mientras tú permaneces invisible.</div>
+                `;
+            } else if (targetScore < 70) {
+                scoreStatus.className = 'score-status medium';
+                scoreStatus.innerHTML = `
+                    <div style="font-size: 18px; margin-bottom: 8px;">🟡 PREPARACIÓN MEDIA</div>
+                    <div>Tienes bases pero necesitas optimización urgente para competir en el ecosistema GEO.</div>
+                `;
+            } else {
+                scoreStatus.className = 'score-status good';
+                scoreStatus.innerHTML = `
+                    <div style="font-size: 18px; margin-bottom: 8px;">🟢 BUENA PREPARACIÓN</div>
+                    <div>Vas por buen camino. Con ajustes estratégicos puedes dominar tu nicho en IAs.</div>
+                `;
+            }
+
+            // Breakdown categorías
+            const categoriesDiv = document.getElementById('categoriesBreakdown');
+            categoriesDiv.innerHTML = results.categories.map(cat => `
+                <div class="category">
+                    <div class="category-header">
+                        <span class="category-name">${cat.name}</span>
+                        <span class="category-score">${cat.score}/${cat.max}</span>
+                    </div>
+                    <div class="category-bar">
+                        <div class="category-fill" style="width: ${(cat.score / cat.max * 100)}%"></div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Issues
+            const issuesDiv = document.getElementById('issuesList');
+            issuesDiv.innerHTML = results.issues.map(issue => `
+                <div class="issue-item">
+                    <div class="issue-title">${issue.title}</div>
+                    <ul class="issue-problems">
+                        ${issue.problems.map(p => `<li>${p}</li>`).join('')}
+                    </ul>
+                    <div class="issue-tip">${issue.tip}</div>
+                </div>
+            `).join('');
+
+            // Industry name
+            const industryNames = {
+                turismo: 'turismo y hospitalidad',
+                legal: 'servicios legales',
+                ecommerce: 'ecommerce',
+                salud: 'salud y wellness',
+                saas: 'tecnología B2B',
+                'bienes-raices': 'bienes raíces',
+                construccion: 'construcción',
+                educacion: 'educación',
+                financiero: 'servicios financieros',
+                otro: 'tu industria'
+            };
+            document.getElementById('industryName').textContent = industryNames[industry] || industry;
+
+            // Scroll suave a resultados
+            setTimeout(() => {
+                resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 500);
+
+            // Enviar lead a backend (aquí puedes integrar Zapier, Make, email API, etc)
+            console.log('Lead capturado:', { url, industry, email, score: targetScore });
+        });
+    </script>
+</body>
+</html>
